@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>Eclipse Announcements: Eclipse Newsletter | Utility Belt: Projects and Tools</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/UCZn0gpPNNg/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/UCZn0gpPNNg/</link>
+	<description>Learn more about JUnit 5, e4 on JavaFX, scripting with EASE, embedded tools and Eclipse CDT, the Ferret search tool, and software ethics.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/UCZn0gpPNNg&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 18 Oct 2017 10:02:00 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2017: Download the EclipseCon 2017 App</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/3154 at https://www.eclipsecon.org/europe2017</guid>
+	<link>https://www.eclipsecon.org/europe2017/news/download-eclipsecon-2017-app</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Create your EclipseCon schedule with the app from EclipseSource. The app provides you with the program organized by track or by date and time with the complete abstract and speaker information. You can locate your destination with the built in maps of the conference venue and its surroundings. Login to eclipsecon.org during the conference to submit feedback on the talks. Download from these links:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;https://itunes.apple.com/us/app/eclipsecon-europe-2017/id1280396790?l=de&amp;amp;ls=1&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;iOS: iTunes Preview&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.eclipsesource.eclipsecon&quot; target=&quot;_blank&quot;&gt;Android: Google Play&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We asked the EclipseSource team to tell us more about the app:&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/download-eclipsecon-2017-app&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/App%20screens.png?itok=8VOK1QUY&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 17 Oct 2017 14:22:18 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: Formatting for the Masses</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/formatting-for-the-masses</guid>
+	<link>https://blogs.itemis.com/en/formatting-for-the-masses</link>
+	<description>&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Reading source code happens way more often than writing it. And reading code is a lot easier when it is well formatted. Linebreaks and indentations are guiding the reader and it is more obvious in which context things are happening. Doing formatting completely manually is simply not an option, especially for larger changes. For that reason general purpose languages, like Java, do have many different implementations for automatic code formatters or “pretty printers”. &lt;/span&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;All implementations come with a default behaviour that works, but this is not enough. Formatting has always been a matter of taste and therefore users want to customize all the different settings to their liking. Therefore &lt;strong&gt;professional formatting tools like Eclipse JDT&lt;/strong&gt; offer a gazillion number of options.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;img alt=&quot;Formatting-code-Eclipse-JDT.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Formatting-code-Eclipse-JDT.png?t=1508242203897&amp;amp;width=640&amp;amp;name=Formatting-code-Eclipse-JDT.png&quot; style=&quot;width: 640px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;640&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;These options can be stored as preferences and shared together with the code. Sounds cool, but it is still not enough for “everybody”. People want to adjust those settings or when, they come to the point where the tool does not offer the 'right' options, they will use tag-comments in JDT. This will make the formatter shut up for a specific area.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;formatting-code.png&quot; height=&quot;392&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/formatting-code.png?t=1508242203897&amp;amp;width=286&amp;amp;height=392&amp;amp;name=formatting-code.png&quot; width=&quot;286&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The formatter can be explicitly switched on and off to manually format the code. This is a workaround and not a solution. The problem is that “everybody” wants to format their code differently. Some language designers try to circumvent this problem by mandating the correct formatting on the syntax level as Python does it, but this is oftentimes limited to the indentation level and not to the overall formatting rules.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For most general purpose languages, there are a gazillion tools to format the code in different ways with different options and the user has the choice – the choice of the tool, the choice of options – everything can be tailored to specific needs. &lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Formatting code for DSLs with Xtext&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;For &lt;strong&gt;domain specific languages (DSL)&lt;/strong&gt; there is nothing like that coming out of the box. Looking at frameworks like &lt;a href=&quot;https://www.itemis.com/en/xtext/&quot;&gt;Eclipse Xtext&lt;/a&gt;, it is really a breeze to create languages, but there is no formatter coming for free. Of course, &lt;strong&gt;the framework is offering a powerful API to define formatters&lt;/strong&gt;. Decisions can be made on grammar level for all instances of the DSL and in addition you have access to a specific part of the abstract syntax tree so can make decisions based on the structure and values of your model, too. Having the option to format code based on syntax and structure sounds really cool and actually it is, but it’s a lot of code that needs to be written and it’s not “that” easy.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;Formatting.code.png&quot; height=&quot;261&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Formatting.code.png?t=1508242203897&amp;amp;width=724&amp;amp;height=261&amp;amp;name=Formatting.code.png&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;After you are satisfied with your implementation and your formatter works as you wanted, your users might see that differently. As already said, &lt;strong&gt;formatting is a matter of taste&lt;/strong&gt; and they might come up with the need for options. An additional newline here, no space there... these options do add a lot of complexity to the formatter code. And that's certainly not for free. Time to define the canonical formatting for your DSL? Or can we do better? How about &lt;strong&gt;formatters that take examples and learn how to format similar documents?&lt;/strong&gt; Intelligent formatters that nobody needs to write manually and that are driven by your coding style? Can this be done?&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We started to ask ourselves the same questions and looked at existing libraries out there. As we &lt;strong&gt;use &lt;a href=&quot;http://www.antlr.org/&quot;&gt;AntLR&lt;/a&gt; in Xtext&lt;/strong&gt; heavily, we looked in that direction, too. And we found &lt;a href=&quot;https://github.com/antlr/codebuff&quot;&gt;a very promising project named Codebuff&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, that is driven by Terence Parr, the mastermind behind AntLR. It aims to do formatting by example and the only thing you need is a grammar and a bunch of examples.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;formatting-for-the-masses.jpg&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/formatting-for-the-masses.jpg?t=1508242203897&amp;amp;width=724&amp;amp;name=formatting-for-the-masses.jpg&quot; style=&quot;width: 724px;&quot; title=&quot;formatting-for-the-masses.jpg&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;We have played around with it and it really looks promising. In our &lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/formatting-masses&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;talk&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; at the &lt;/span&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;EclipseCon&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Europe at Wednesday, October 25, 2017, 02:45 pm to 03:20 pm Sebastian and I will give you an overview of what we have figured out, how it works and how it might integrate with Xtext. &lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;See you there!&lt;/span&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fformatting-for-the-masses&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 17 Oct 2017 13:28:35 +0000</pubDate>
+	<author>schill@itemis.com (Holger Schill)</author>
+</item>
+<item>
+	<title>Andrey Loskutov: SpotBugs 3.1.0 RC7 with Java 9 support</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-342159971341432126.post-2324578057630268882</guid>
+	<link>http://javaclipse.blogspot.com/2017/10/spotbugs-310-rc7-with-java-9-support.html</link>
+	<description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot;&gt;&lt;b&gt;FindBugs is dead, long live SpotBugs!&lt;/b&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://spotbugs.github.io/images/logos/spotbugs_logo_300px.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://spotbugs.github.io/images/logos/spotbugs_logo_300px.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I would like to introduce here &lt;a href=&quot;https://spotbugs.github.io/&quot;&gt;SpotBugs&lt;/a&gt;, a spiritual successor of &lt;a href=&quot;http://findbugs.sourceforge.net/&quot;&gt;FindBugs&lt;/a&gt;, crafted by the community.&lt;br /&gt;&lt;br /&gt;We've just released &lt;a href=&quot;https://github.com/spotbugs/spotbugs/blob/3.1.0_RC7/CHANGELOG.md&quot;&gt;3.1.0 RC7 version&lt;/a&gt; and hope to release the final 3.1.0 this weekend.&lt;br /&gt;One of the main drivers to release &lt;a href=&quot;https://spotbugs.github.io/&quot;&gt;SpotBugs&lt;/a&gt; now is to support Java 9, but there were also few other exciting changes in the previous &lt;a href=&quot;https://spotbugs.github.io/&quot;&gt;SpotBugs&lt;/a&gt; milestones, please check them for more details: &lt;a href=&quot;https://github.com/spotbugs/spotbugs/releases&quot;&gt;https://github.com/spotbugs/spotbugs/releases&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;We also have a new &lt;a href=&quot;https://spotbugs.github.io/&quot;&gt;SpotBugs&lt;/a&gt; Eclipse plugin, here are the links to the update sites: &lt;a href=&quot;http://spotbugs.readthedocs.io/en/latest/eclipse.html&quot;&gt;http://spotbugs.readthedocs.io/en/latest/eclipse.html&lt;/a&gt; and &lt;a href=&quot;https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin&quot;&gt;Eclipse marketplace entry&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;We need your help&lt;/b&gt;!&lt;br /&gt;Please check if you see regressions and don't hesitate to report issues to the bug tracker!&lt;br /&gt;&lt;br /&gt;&lt;b&gt;SpotBugs links&lt;/b&gt;&lt;br /&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;Home: &lt;a href=&quot;https://spotbugs.github.io/&quot;&gt;https://spotbugs.github.io&lt;/a&gt;&lt;br /&gt;Mailing list: &lt;a href=&quot;https://github.com/spotbugs/discuss/issues?q=&quot;&gt;https://github.com/spotbugs/discuss/issues?q=&lt;/a&gt;&lt;br /&gt;Bug tracker: &lt;a href=&quot;https://github.com/spotbugs/spotbugs/issues&quot;&gt;https://github.com/spotbugs/spotbugs/issues&lt;/a&gt;&lt;br /&gt;Git repository: &lt;a href=&quot;https://github.com/spotbugs/spotbugs&quot;&gt;https://github.com/spotbugs/spotbugs&lt;/a&gt;&lt;br /&gt;Manual: &lt;a href=&quot;http://spotbugs.readthedocs.io/en/latest&quot;&gt;http://spotbugs.readthedocs.io/en/latest&lt;/a&gt;&lt;br /&gt;Migration guide: &lt;a href=&quot;http://spotbugs.readthedocs.io/en/latest/migration.html&quot;&gt;http://spotbugs.readthedocs.io/en/latest/migration.html&lt;/a&gt;&lt;br /&gt;Eclipse plugin nightly build: &lt;a href=&quot;https://spotbugs.github.io/eclipse-latest&quot;&gt;https://spotbugs.github.io/eclipse-latest&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;P.S.&lt;/b&gt;&lt;br /&gt;If you are curious about the history of &lt;a href=&quot;https://spotbugs.github.io/&quot;&gt;SpotBugs&lt;/a&gt; and why &lt;a href=&quot;http://findbugs.sourceforge.net/&quot;&gt;FindBugs&lt;/a&gt; isn't there anymore, please read through this mails:&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;&lt;a href=&quot;https://mailman.cs.umd.edu/pipermail/findbugs-discuss/2016-November/004321.html&quot;&gt;https://mailman.cs.umd.edu/pipermail/findbugs-discuss/2016-November/004321.html&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://mailman.cs.umd.edu/pipermail/findbugs-discuss/2017-September/004383.html&quot;&gt;https://mailman.cs.umd.edu/pipermail/findbugs-discuss/2017-September/004383.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 17 Oct 2017 07:37:38 +0000</pubDate>
+	<author>noreply@blogger.com (Andrey Loskutov)</author>
+</item>
+<item>
+	<title>Donald Raab: Zip Symmetry</title>
+	<guid isPermaLink="false">https://medium.com/p/a857a934ee26</guid>
+	<link>https://medium.com/@donraab/zip-symmetry-a857a934ee26?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;Another tale of &lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; in the land of object and primitive collections.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*qjrl-yuxEoiHXVvVj8sNqg.jpeg&quot; /&gt;Island of Balos, Crete&lt;/figure&gt;&lt;p&gt;I gave a talk this year at JavaOne titled &lt;strong&gt;&lt;em&gt;API Deep Dive: Designing Eclipse Collections&lt;/em&gt;&lt;/strong&gt; [CON6133] with Nikhil Nanivadekar. I really enjoyed this talk, as I got to recall twelve plus years of development in forty-five minutes. The slides are now available online &lt;a href=&quot;https://static.rainfocus.com/oracle/oow17/sess/1494212572063001UbJA/PF/JavaOne2017_CON6133_12_1507248789169001TA3b.pptx&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Symmetry continues to drive the design and implementation of new features in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;. On slide 36 of the presentation (see below), I indicated where we are currently missing some symmetry between object and primitive collections.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/720/1*5NXdHfz7VnM3WyT-ZZ83IQ.png&quot; /&gt;Where is primitive eager zip?&lt;/figure&gt;&lt;p&gt;After returning home from JavaOne, I decided to spend Columbus Day implementing &lt;em&gt;zip&lt;/em&gt; for primitive eager lists in Eclipse Collections.&lt;/p&gt;&lt;h4&gt;What is zip?&lt;/h4&gt;&lt;p&gt;According to &lt;a href=&quot;https://en.wikipedia.org/wiki/Convolution_(computer_science)&quot;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;In computer science, specifically formal languages, convolution (sometimes referred to as zip) is a function which maps a tuple of sequences into a sequence of tuples.&lt;/blockquote&gt;&lt;p&gt;To put this slightly differently, if you have two lists of objects, and you zip them together, you will wind up with a single list of pairs of objects.&lt;/p&gt;&lt;p&gt;Here’s an example of how you can use &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.0.0/org/eclipse/collections/api/list/ListIterable.html#zip-java.lang.Iterable-&quot;&gt;zip&lt;/a&gt; today in Eclipse Collections (EC) for object collections.&lt;/p&gt;&lt;pre&gt;MutableList&amp;lt;String&amp;gt; one = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;1&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;2&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;3&quot;&lt;/strong&gt;);&lt;br /&gt;ImmutableList&amp;lt;String&amp;gt; two = Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;one&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;three&quot;&lt;/strong&gt;);&lt;br /&gt;MutableList&amp;lt;Pair&amp;lt;String, String&amp;gt;&amp;gt; zipOneAndTwo = one.zip(two);&lt;br /&gt;ImmutableList&amp;lt;Pair&amp;lt;String, String&amp;gt;&amp;gt; zipTwoAndOne = two.zip(one);&lt;/pre&gt;&lt;p&gt;If we output &lt;em&gt;zipOneAndTwo&lt;/em&gt; and &lt;em&gt;zipTwoAndOne&lt;/em&gt; they look as follows:&lt;/p&gt;&lt;pre&gt;[1:one, 2:two, 3:three]&lt;br /&gt;[one:1, two:2, three:3]&lt;/pre&gt;&lt;p&gt;We can change the first list to &lt;em&gt;Integer&lt;/em&gt; objects like so.&lt;/p&gt;&lt;pre&gt;MutableList&amp;lt;Integer&amp;gt; one = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3);&lt;br /&gt;ImmutableList&amp;lt;String&amp;gt; two = Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;one&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;three&quot;&lt;/strong&gt;);&lt;br /&gt;MutableList&amp;lt;Pair&amp;lt;Integer, String&amp;gt;&amp;gt; zipOneAndTwo = one.zip(two);&lt;br /&gt;ImmutableList&amp;lt;Pair&amp;lt;String, Integer&amp;gt;&amp;gt; zipTwoAndOne = two.zip(one);&lt;/pre&gt;&lt;p&gt;We still get the same output, because of how &lt;em&gt;Pair&lt;/em&gt; defines &lt;em&gt;toString&lt;/em&gt;().&lt;/p&gt;&lt;pre&gt;[1:one, 2:two, 3:three]&lt;br /&gt;[one:1, two:2, three:3]&lt;/pre&gt;&lt;p&gt;I hate boxing ints as Integers. I’d like to be able to use an &lt;em&gt;IntList&lt;/em&gt; instead of a &lt;em&gt;List&lt;/em&gt; of &lt;em&gt;Integer&lt;/em&gt; objects. Previously in EC, we could not change the &lt;em&gt;MutableList&lt;/em&gt; of &lt;em&gt;Integer&lt;/em&gt; to a &lt;em&gt;MutableIntList&lt;/em&gt;. Now we can, but this new ability highlights a slight problem.&lt;/p&gt;&lt;pre&gt;MutableIntList one = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3);&lt;br /&gt;ImmutableList&amp;lt;String&amp;gt; two = Lists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;one&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;three&quot;&lt;/strong&gt;);&lt;br /&gt;MutableList&amp;lt;IntObjectPair&amp;lt;String&amp;gt;&amp;gt; zipOneAndTwo = one.zip(two);&lt;/pre&gt;&lt;pre&gt;// The following code does not compile&lt;br /&gt;&lt;strong&gt;&lt;em&gt;ImmutableList&amp;lt;ObjectIntPair&amp;lt;String&amp;gt;&amp;gt; zipTwoAndOne = two.zip(one);&lt;/em&gt;&lt;/strong&gt;&lt;/pre&gt;&lt;p&gt;I have added a method zip to primitive lists with the following signature (&lt;em&gt;IntList&lt;/em&gt; used as an example below).&lt;/p&gt;&lt;pre&gt;&lt;em&gt;/**&lt;br /&gt; * Returns a {&lt;/em&gt;&lt;strong&gt;&lt;em&gt;@code &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;MutableList} formed from this {&lt;/em&gt;&lt;strong&gt;&lt;em&gt;@code &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;MutableIntList} and a {&lt;/em&gt;&lt;strong&gt;&lt;em&gt;@code &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;ListIterable} by&lt;br /&gt; * combining corresponding elements in pairs. If one of the two Lists is longer than the other, its&lt;br /&gt; * remaining elements are ignored.&lt;br /&gt; *&lt;br /&gt; * &lt;/em&gt;&lt;strong&gt;&lt;em&gt;@since &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;9.1.&lt;br /&gt; */&lt;br /&gt;&lt;/em&gt;default &amp;lt;T&amp;gt; MutableList&amp;lt;IntObjectPair&amp;lt;T&amp;gt;&amp;gt; zip(ListIterable&amp;lt;T&amp;gt; list)&lt;/pre&gt;&lt;p&gt;We cannot (yet) zip an object list with a primitive list. By adding a feature in one direction (primitive+object), I have discovered (or created) a lack of symmetry in the other direction (object+primitive).&lt;/p&gt;&lt;h4&gt;One small step for a code generator…&lt;/h4&gt;&lt;p&gt;We can zip two object lists together regardless of the object type, so I wanted to at least be able to zip two int lists, two double lists, two short lists, etc. This is in addition to now being able to zip a primitive list with an object list. So the following signature is also included and code generated today (example below with &lt;em&gt;zipInt&lt;/em&gt; on &lt;em&gt;IntList&lt;/em&gt;). A method &lt;em&gt;zipDouble&lt;/em&gt; is also generated for &lt;em&gt;DoubleList&lt;/em&gt;, &lt;em&gt;zipFloat&lt;/em&gt; for &lt;em&gt;FloatList&lt;/em&gt;, etc. I used a naming pattern which will easily allow additional forms to be added later if there are use cases for them that surface.&lt;/p&gt;&lt;pre&gt;&lt;em&gt;/**&lt;br /&gt; * Returns a {&lt;/em&gt;&lt;strong&gt;&lt;em&gt;@code &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;MutableList} formed from this {&lt;/em&gt;&lt;strong&gt;&lt;em&gt;@code &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;MutableIntList} and another {&lt;/em&gt;&lt;strong&gt;&lt;em&gt;@code &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;IntList} by&lt;br /&gt; * combining corresponding elements in pairs. If one of the two {&lt;/em&gt;&lt;strong&gt;&lt;em&gt;@code &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;IntList}s is longer than the other, its&lt;br /&gt; * remaining elements are ignored.&lt;br /&gt; *&lt;br /&gt; * &lt;/em&gt;&lt;strong&gt;&lt;em&gt;@since &lt;/em&gt;&lt;/strong&gt;&lt;em&gt;9.1.&lt;br /&gt; */&lt;br /&gt;&lt;/em&gt;default MutableList&amp;lt;IntIntPair&amp;gt; zipInt(IntList list)&lt;/pre&gt;&lt;p&gt;Here’s an example zipping two &lt;em&gt;IntLists&lt;/em&gt; together using the method &lt;em&gt;zipInt&lt;/em&gt;.&lt;/p&gt;&lt;pre&gt;MutableIntList one = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3);&lt;br /&gt;ImmutableIntList two = IntLists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(10, 20, 30);&lt;br /&gt;MutableList&amp;lt;IntIntPair&amp;gt; zipOneAndTwo = one.zipInt(two);&lt;br /&gt;ImmutableList&amp;lt;IntIntPair&amp;gt; zipTwoAndOne = two.zipInt(one);&lt;/pre&gt;&lt;p&gt;If I output both zipped lists the result is as follows:&lt;/p&gt;&lt;pre&gt;[1:10, 2:20, 3:30]&lt;br /&gt;[10:1, 20:2, 30:3]&lt;/pre&gt;&lt;p&gt;We can now zip eight forms of primitive lists to object lists today. We can also zip “like” forms of primitive lists as well (&lt;em&gt;IntList&lt;/em&gt;-&amp;gt;&lt;em&gt;zipInt&lt;/em&gt;, &lt;em&gt;DoubleList&lt;/em&gt;-&amp;gt;&lt;em&gt;zipDouble&lt;/em&gt;, etc.). I am hopeful that this functionality will satisfy most needs for the foreseeable future.&lt;/p&gt;&lt;h4&gt;The North Remembers&lt;/h4&gt;&lt;p&gt;Symmetry does not forget, and when it is missing and needed, developers will not always easily forgive. Achieving perfect symmetry for the sake of symmetry itself is a fool’s errand. If you find yourself in the position of needing more symmetry in this space, remember &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;Eclipse Collections is open source&lt;/a&gt;. You can put in a request and perhaps someone may implement it on your behalf, but the quickest way to completion may be getting actively involved in the Eclipse Collections community and making a contribution. We will make sure you get all the help you need if you are interested in contributing.&lt;/p&gt;&lt;h4&gt;The sequel?&lt;/h4&gt;&lt;p&gt;We have zip today in Eclipse Collections but we do not yet have its natural opposite: &lt;em&gt;unzip&lt;/em&gt;. Unzip would take a list of pairs, return a pair of lists. Unzip only makes sense on the object collection side, because you can only unzip a list of pairs. Sounds easy right? Unzip winds up more complex to define with primitives now supported in zip. If you have a &lt;em&gt;List&lt;/em&gt; of &lt;em&gt;Pair&lt;/em&gt;, you will get back a &lt;em&gt;Pair&lt;/em&gt; of &lt;em&gt;Lists&lt;/em&gt;. If you have a &lt;em&gt;List&lt;/em&gt; of &lt;em&gt;ObjectIntPair&lt;/em&gt;, you would want to get back a &lt;em&gt;Pair&lt;/em&gt; of &lt;em&gt;List&lt;/em&gt; and &lt;em&gt;IntList&lt;/em&gt;… and so on. The return type for unzip will be tricky to define, at least without complicating the API, which should require no parameters. I think we should wait a while before trying to solve this symmetry problem. However, there is a pattern which would be very nice to have, and may make using zip less attractive once we do have it. This pattern is &lt;strong&gt;&lt;em&gt;collectWithIndex&lt;/em&gt;&lt;/strong&gt;. We have &lt;strong&gt;&lt;em&gt;forEachWithIndex&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;injectIntoWithIndex&lt;/em&gt;&lt;/strong&gt; (primitive only) today. Oh, no... Stay tuned.&lt;/p&gt;&lt;p&gt;I hope this latest chapter in my tale of Symmetric Sympathy was interesting and informative.&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=a857a934ee26&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 13 Oct 2017 17:31:16 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2017: An invitation from the Science community</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/3151 at https://www.eclipsecon.org/europe2017</guid>
+	<link>https://www.eclipsecon.org/europe2017/news/invitation-science-community</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;
+	by Tracy Miranda&lt;/h4&gt;
+&lt;p&gt;You're invited to join the Science activities at EclipseCon Europe. Get involved by participating in:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		 &lt;a href=&quot;https://www.eclipsecon.org/europe2017/schedule_item/eclipse-science-unconference&quot;&gt;The Science Unconference&lt;/a&gt; - an session dedicated to Science Working Group projects&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;https://www.eclipsecon.org/europe2017/session/threesome-made-heaven-ease-python-jupyter-tutorial&quot;&gt;EASE Python scripting &amp;amp; Jupyter tutorial&lt;/a&gt; - a hands-on for scripting Eclipse with Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And the program committee has selected 5 talks from the Eclipse science community:&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/invitation-science-community&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/science%20square.png?itok=nBaEwh4d&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 13 Oct 2017 09:32:57 +0000</pubDate>
+</item>
+<item>
+	<title>Paolo Patierno: Eclipse Hono : Virtual IoT meetup</title>
+	<guid isPermaLink="false">http://paolopatierno.wordpress.com/?p=5478</guid>
+	<link>https://paolopatierno.wordpress.com/2017/10/12/eclipse-hono-virtual-iot-meetup/</link>
+	<description>&lt;p&gt;&lt;img alt=&quot;Virtual IoT - Hono&quot; class=&quot;alignnone size-full wp-image-5499&quot; src=&quot;https://paolopatierno.files.wordpress.com/2017/10/virtual-iot-hono.png?w=620&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Yesterday, thanks to the Eclipse Foundation I had the chance to talk about &lt;a href=&quot;https://www.eclipse.org/hono/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Hono&lt;/a&gt; as speaker for this &lt;a href=&quot;https://www.meetup.com/Virtual-IoT/events/242190258/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;virtual IoT meetup&lt;/a&gt; as part of a meetup series where the focus is on the &lt;a href=&quot;https://iot.eclipse.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse IoT&lt;/a&gt; projects. I was with Kai Hudalla (Chief Software Architect at BoschSI) who is co-lead and main contributor on Hono.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;It was my first virtual meetup and a really exciting experience for me with almost 90 “virtual” attendees and a lot of interesting questions showing the interest that developers had about this “new” project.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;If you didn’t have a chance to watch the session or you want to re-watch it, you can find the recording on &lt;a href=&quot;https://www.youtube.com/watch?v=VEXuz2bFSrE&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;; the slides deck is available &lt;a href=&quot;https://www.slideshare.net/paolopat/eclipse-hono-connect-command-control-80697771&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; as well.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/paolopatierno.wordpress.com/5478/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/paolopatierno.wordpress.com/5478/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=paolopatierno.wordpress.com&amp;amp;blog=15467422&amp;amp;post=5478&amp;amp;subd=paolopatierno&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;&lt;/p&gt;</description>
+	<pubDate>Thu, 12 Oct 2017 05:54:47 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Automatic License Certification By The Numbers</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5356</guid>
+	<link>https://waynebeaton.wordpress.com/2017/10/11/automatic-license-certification-by-the-numbers/</link>
+	<description>&lt;p&gt;In 2016, we introduced the notion of &lt;a href=&quot;https://waynebeaton.wordpress.com/2017/01/13/whats-your-ip-due-diligence-type/&quot;&gt;license certification intellectual property (IP) due diligence&lt;/a&gt; (“Type A”) into the &lt;a href=&quot;https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf&quot;&gt;Eclipse IP Policy&lt;/a&gt; with a goal in mind to automate the certification process. At that time, we started a process of evaluating tools that could be used for automatic validation and eventually discovered &lt;a href=&quot;https://github.com/nexB/scancode-toolkit&quot;&gt;Scancode&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In our testing, we found that Scancode does a very good job of discovering licenses (and copyrights, which we may take better advantage of later), with the added bonus of having a very simple-to-use command-line interface (CLI) that produces reports in a handful of handy formats (including JSON and SPDX) that are easily machine readable.&lt;/p&gt;
+&lt;p&gt;The Eclipse Webmaster integrated Scancode into the &lt;em&gt;Eclipse Genie&lt;/em&gt; process. Genie jumps into action when it notices a “Type A” third party content review request (“Contribution Questionnaire”) with attached source code, and PMC approval. If the licenses discovered in the attached content are compatible with the project license, Genie automatically license certifies the content.&lt;/p&gt;
+&lt;p&gt;After running for a few months, it looks like we’re getting about a 50% hit rate. That is, about half of all third party content license certification requests are being automatically approved without needing to engage the Eclipse IP Team.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;typa&quot; class=&quot;alignnone size-full wp-image-5357&quot; src=&quot;https://waynebeaton.files.wordpress.com/2017/10/typa.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Note that some of the older bumps in the graph come from requests that were retroactively designated as “Type A”, and that little bump in automatic approvals in March is from Webmaster testing.&lt;/p&gt;
+&lt;p&gt;I’ll admit that it’s a little suspect to me that the graphs line up so closely starting in July. I’m pretty confident in the query and have reviewed the data, so it’s accurate as far as I know.&lt;/p&gt;
+&lt;p&gt;It’ll be interesting to see how the pattern tracks over time.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/5356/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/5356/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=5356&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 11 Oct 2017 20:45:34 +0000</pubDate>
+</item>
+<item>
+	<title>Geniutec: Working with Java 9 in Eclipse</title>
+	<guid isPermaLink="false">https://www.genuitec.com/?p=534701</guid>
+	<link>https://www.genuitec.com/working-java-9-eclipse/</link>
+	<description>&lt;p&gt;Note: This blog was updated on October 11th, 2017 to reflect the release of Oxygen 1a which includes Java 9 support.The Java 9 GA release is just a few weeks old, and you can start developing with Java 9 in Eclipse, right now! All you need to do is download a suitable Oxygen 1a (4.7.1a) […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.genuitec.com/working-java-9-eclipse/&quot; rel=&quot;nofollow&quot;&gt;Working with Java 9 in Eclipse&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.genuitec.com&quot; rel=&quot;nofollow&quot;&gt;Genuitec&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 11 Oct 2017 20:00:50 +0000</pubDate>
+</item>
+<item>
+	<title>Vincent Zurczak: Custom Setup Task in OOMPH and namespace conflict</title>
+	<guid isPermaLink="false">http://vzurczak.wordpress.com/?p=676</guid>
+	<link>https://vzurczak.wordpress.com/2017/10/11/custom-setup-task-in-oomph-and-namespace-conflict/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/tools.oomph&quot;&gt;OOMPH&lt;/a&gt; is a solution that helps to install official and custom Eclipse distributions.&lt;/p&gt;
+&lt;p&gt;Those who use it for their own distro can extend its behaviour thanks to setup tasks. A setup task is made up of both an EMF model (that extends the &lt;strong&gt;setup.ecore/#SetupTask&lt;/strong&gt; element from OOMPH) and Java code. This code is partially generated by EMF. People only have to complete the &lt;strong&gt;perform&lt;/strong&gt; method to make it do something at runtime. Obviously, OOMPH provides a wizard to help in the creation of such a thing.&lt;/p&gt;
+&lt;p&gt;However, I recently had to maintain an existing set of setup tasks. And when I opened the genmodel file for my tasks, I had a weird error message in the genmodel editor.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://vzurczak.files.wordpress.com/2017/10/erreur.png&quot;&gt;&lt;img alt=&quot;EMF error due to conflicting namespaces&quot; class=&quot;aligncenter size-medium wp-image-677&quot; height=&quot;185&quot; src=&quot;https://vzurczak.files.wordpress.com/2017/10/erreur.png?w=300&amp;amp;h=185&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The exact error message indicates…&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;br /&gt;
+Problems encountered in the model&lt;br /&gt;
+- The package 'http://www.eclipse.org/oomph/setup/1.0#/' has the same namespace URI 'http://www.eclipse.org/oomph/setup/1.0' as package 'platform:/resource/org.eclipse.oomph.setup/model/Setup.ecore#/'&lt;br /&gt;
+- The package 'http://www.eclipse.org/oomph/setup/1.0#/' has the same namespace URI 'http://www.eclipse.org/oomph/setup/1.0' as package 'platform:/resource/org.eclipse.oomph.base/model/Base.ecore#/'&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;That’s a weird message.&lt;br /&gt;
+Even worse, it does not appear if you create a new setup task project. I compared everything: the models, the project settings… everything.&lt;/p&gt;
+&lt;p&gt;Taking a detailed look at the error message, it indicates that two EMF projects from OOMPH export the same package. In fact, both packages export different classes but within the same namespace. And they reference each other (&lt;strong&gt;Setup&lt;/strong&gt; extends classes from &lt;strong&gt;Base&lt;/strong&gt;). Anyway, EMF does not know which package pick up as both could match.&lt;/p&gt;
+&lt;p&gt;The workaround for this is to update the ecore model.&lt;br /&gt;
+Indeed, the generated ecore contains…&lt;/p&gt;
+&lt;pre class=&quot;brush: xml; title: ; notranslate&quot;&gt;&amp;lt;eClassifiers
+   xsi:type=&quot;ecore:EClass&quot;
+   name=&quot;YourTaskName&quot;
+   eSuperTypes=&quot;http://www.eclipse.org/oomph/setup/1.0#//SetupTask&quot;&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;The super type is resolved by namespace.&lt;br /&gt;
+If you reference it by the location of the ecore model, that will solve the problem.&lt;/p&gt;
+&lt;pre class=&quot;brush: xml; title: ; notranslate&quot;&gt;&amp;lt;eClassifiers 
+   xsi:type=&quot;ecore:EClass&quot;
+   name=&quot;YourTaskName&quot;
+   eSuperTypes=&quot;platform:/resource/org.eclipse.oomph.setup/model/Setup.ecore#//SetupTask&quot;&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;The &lt;strong&gt;Setup&lt;/strong&gt; classes extends the &lt;strong&gt;Base&lt;/strong&gt; ones.&lt;br /&gt;
+So, you can directly reference the &lt;strong&gt;Setup.ecore&lt;/strong&gt; file. You can also update your genmodel file with the URL of the existing generators.&lt;/p&gt;
+&lt;pre class=&quot;brush: xml; title: ; notranslate&quot;&gt;usedGenPackages=&quot;platform:/resource/org.eclipse.oomph.base/model/Base.genmodel#//base platform:/resource/org.eclipse.oomph.setup/model/Setup.genmodel#//setup&quot;
+&lt;/pre&gt;
+&lt;p&gt;… instead of…&lt;/p&gt;
+&lt;pre class=&quot;brush: xml; title: ; notranslate&quot;&gt;usedGenPackages=&quot;../../org.eclipse.oomph.base/model/Base.genmodel#//base ../../org.eclipse.oomph.setup/model/Setup.genmodel#//setup&quot;
+&lt;/pre&gt;
+&lt;p&gt;Eventually, you will opt for a solution that prevents the genmodel from rewriting the ecore file. Just remove the &lt;strong&gt;publicationLocation&lt;/strong&gt; attribute from your genmodel. Otherwise, every time you generate code from your genmodel file, it will rewrite the super types in your ecore file. Definitely not what you want.&lt;/p&gt;
+&lt;p&gt;PS: I have still not understood why the error sometimes appears.&lt;br /&gt;
+In my case, the ecore file defined several setup tasks in the same file. My other example did not. Maybe that’s the reason.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/vzurczak.wordpress.com/676/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/vzurczak.wordpress.com/676/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=vzurczak.wordpress.com&amp;amp;blog=10081016&amp;amp;post=676&amp;amp;subd=vzurczak&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 11 Oct 2017 18:15:49 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2017: Come to the Meet &amp; Greet</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/europe2017/news/3147 at https://www.eclipsecon.org/europe2017</guid>
+	<link>https://www.eclipsecon.org/europe2017/news/come-meet-greet</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Plan to attend the first social event of the week on Monday evening — the Meet &amp;amp; Greet.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Monday, October 23, 17:30 (after the Unconference)&lt;/li&gt;
+	&lt;li&gt;Theater Foyer at the Forum&lt;/li&gt;
+	&lt;li&gt;Beverages and snacks&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;strong&gt;New to the conference or community?&lt;/strong&gt; This casual reception is especially for you. We want to welcome you and connect you to the people in the community that *you* want to meet: project team leads, technical experts, program committee members, Board members, Foundation staffers, conference speakers. When you arrive, just ask your greeter for an introduction to whoever you would like to know.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Returning attendee or longtime community member?&lt;/strong&gt; The Meet &amp;amp; Greet is also for you. Renew your connections, reach out to new people, and cap off the Unconference with a beer and a snack.&lt;/p&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2017/news/come-meet-greet&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/MeetGreet.jpg?itok=UBmsqwm3&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 11 Oct 2017 18:13:21 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools 4.5.1.AM3 for Eclipse Oxygen.1</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/4.5.1.am3-for-oxygen.1.html</guid>
+	<link>https://tools.jboss.org/blog/4.5.1.am3-for-oxygen.1.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy to announce 4.5.1.AM3 (Developer Milestone 3) build for Eclipse Oxygen.1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.1.AM3.html&quot;&gt;JBoss Tools 4.5.1 AM3&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.1.AM3.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-io&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-io&quot;&gt;&lt;/a&gt;OpenShift.io&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;openshift-io-login&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-io-login&quot;&gt;&lt;/a&gt;OpenShift.io login&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It is possible to login from JBoss Tools to OpenShift.io. A single account will be maintained per workspace. Once you initially logged onto OpenShift.io, all
+      needed account information (tokens,…​) will be stored securely.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There are two ways to login onto OpenShift.io:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;through the UI&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;via a third party service that will invoke the proper extension point&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;ui-based-login-to-openshift-io&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#ui-based-login-to-openshift-io&quot;&gt;&lt;/a&gt;UI based login to OpenShift.io&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In the toobar, you should see a new icon &lt;span class=&quot;image&quot;&gt;&lt;img alt=&quot;Toolbar&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-16x16.png&quot; /&gt;&lt;/span&gt;. Click on it and it will launch the login.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If this is the first time you login to OpenShift.io or if you OpenShift.io account tokens are not valid anymore, you should see a browser launched with the following content:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;osio browser&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-browser.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enter your RHDP login and the browser will then auto-close and an extract (for security reasons) of the OpenShift.io token will be displayed:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;osio token dialog&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-token-dialog.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This dialog will be also shown if an OpenShift.io account was configured in the workspace and the account information is valid.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;via-extension-point&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#via-extension-point&quot;&gt;&lt;/a&gt;Via extension point&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The OpenShift.io integration can be invoked by a third party service through the &lt;code&gt;org.jboss.tools.openshift.io.code.tokenProvider&lt;/code&gt; extension point.
+      This extension point will perform the same actions as the UI but basically will return an access token for OpenShift.io to the third party service.
+      A detailed explanation of how to use this extension point is described here: &lt;a href=&quot;https://github.com/jbosstools/jbosstools-openshift/wiki/OpenShift.io-token-provider&quot;&gt;Wiki page&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can display the account information using the Eclipse &lt;code&gt;Jboss Tools → OpenShift.io&lt;/code&gt; preference node. If you workspace does not contain an OpenShift.io account yet, you should see the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;osio preferences&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-preferences.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you have a configured OpenShift.io account, you should see this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;osio preferences1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/osio-preferences1.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;cdk-3-2-beta-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdk-3-2-beta-server-adapter&quot;&gt;&lt;/a&gt;CDK 3.2 Beta Server Adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A new server adapter has been added to support the next generation of CDK 3.2. This is Tech Preview in this release as CDK 3.2 is Beta.
+      While the server adapter itself has limited functionality, it is able to start and stop the CDK virtual machine via its minishift binary.
+      Simply hit Ctrl+3 (Cmd+3 on OSX) and type CDK, that will bring up a command to setup and/or launch the CDK server adapter.
+      You should see the old CDK 2 server adapter along with the new CDK 3 one (labeled &lt;strong&gt;Red Hat Container Development Kit 3.2+&lt;/strong&gt; ).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3.2 server adapter&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All you have to do is set the credentials for your Red Hat account, the location of the CDK’s minishift binary file, the type of virtualization hypervisor
+      and an optional CDK profile name.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3.2 server adapter1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you’re finished, a new CDK Server adapter will then be created and visible in the Servers view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3.2 server adapter2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicatable environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3.2 server adapter3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk3.2 server adapter4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk3.2-server-adapter4.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;admonitionblock warning&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-warning&quot; title=&quot;Warning&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      This is Tech Preview. The implementation is subject to change, may not work with next releases of CDK 3.2 and testing has been limited.
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;global-beans-improve-support-for-bean-references&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#global-beans-improve-support-for-bean-references&quot;&gt;&lt;/a&gt;Global Beans: improve support for Bean references&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It is now possible to set Bean references from User Interface when creating a new Bean:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Create Factory Bean Reference&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/factoryBeanReference.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Editing Bean references is also now available on the properties view when editing an existing Bean:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Edit Factory Bean Reference&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/factoryBeanReference-propertiesView.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Additional validation has been added to help users avoid mixing Beans defined with class names and Beans defined referencing other beans.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 11 Oct 2017 07:48:24 +0000</pubDate>
+</item>
+<item>
+	<title>typefox.io: Extending a Language Server With Sprotty Diagrams</title>
+	<guid isPermaLink="false">http://typefox.io/?p=14390</guid>
+	<link>http://typefox.io/extending-a-language-server-with-sprotty-diagrams</link>
+	<description>&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;
+			&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+				&lt;p&gt;In &lt;a href=&quot;http://typefox.io/yang-tools-one-language-server-for-four-ides&quot;&gt;my last post&lt;/a&gt;, I described how we connected an Xtext-based language server for the YANG language into various editor clients. Today, I will show how we added graphical diagrams using the &lt;a href=&quot;http://typefox.io/sprotty-a-web-based-diagramming-framework&quot;&gt;sprotty framework&lt;/a&gt;. These diagrams show a graphical overview on your YANG documents. They are automatically layouted and updated on changes. They allow to navigate between diagram and text, to expand and collapse referenced modules, to export them as an SVG file and more.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;wp-caption alignleft&quot; id=&quot;attachment_14395&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14395 size-medium&quot; height=&quot;189&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.59.36-1-300x189.png&quot; width=&quot;300&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;A sprotty diagram in Theia…&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;wp-caption alignleft&quot; id=&quot;attachment_14384&quot; style=&quot;width: 310px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14384 size-medium&quot; height=&quot;189&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.46.59-300x189.png&quot; width=&quot;300&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;…and in Eclipse&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;mceTemp&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;
+			&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+				&lt;h3&gt;sprotty Client-Server Communication&lt;/h3&gt;
+&lt;p&gt;sprotty is a new graphics framework written in TypeScript. In addition to a modern look and feel, built-in animations, a fast virtual DOM architecture, and high-customizability by use of dependency injection, one of its key features is a lean, JSON-based protocol. This protocol allows to separate a server holding the data to be visualized from a client that renders a diagram model and that allows the user to interact with the diagram.&lt;/p&gt;
+&lt;p&gt;The communication messages in sprotty are called &lt;em&gt;Actions&lt;/em&gt;. An &lt;em&gt;Action&lt;/em&gt; is a behaviour-less data structure that usually describes a coarse grained semantic operation, like setting a new diagram model or applying the diagram layout. &lt;em&gt;Actions&lt;/em&gt; are usually triggered by the user, by the client or by the server. On the client, they are usually translated into &lt;em&gt;Commands&lt;/em&gt; which modify the diagrams state and trigger rendering updates. &lt;em&gt;Actions&lt;/em&gt; can be sent in both directions.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14391&quot; style=&quot;width: 610px;&quot;&gt;&lt;img alt=&quot;sprotty's event cycle&quot; class=&quot;wp-image-14391&quot; height=&quot;328&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/sprotty_actions-300x164.png&quot; width=&quot;600&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;sprotty’s event cycle&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;On the client, the &lt;em&gt;ActionDispatcher&lt;/em&gt; decides which &lt;em&gt;Actions&lt;/em&gt; are executed locally and which ones are sent to and processed by the server. This allows to delegate expensive calculations to the server. E.g. in the YANG tools, we let the server perform the auto-layout calculation using the &lt;a href=&quot;https://www.eclipse.org/elk/&quot;&gt;Eclipse Layout Kernel&lt;/a&gt;. The &lt;em&gt;ActionDispatcher&lt;/em&gt; also acts as a gateway to the client’s event cycle for &lt;em&gt;Actions&lt;/em&gt; coming in from the server.&lt;/p&gt;
+&lt;h3&gt;Extending the LSP&lt;/h3&gt;
+&lt;p&gt;As the &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol&quot;&gt;Language Server Protocol&lt;/a&gt; (LSP) has the same separation of client and server, the idea is to extend it such that it supports tunneling sprotty’s &lt;em&gt;Actions&lt;/em&gt; as notifications.&lt;/p&gt;
+&lt;p&gt;LSP is based on JSON-RPC, so we have to extend the interfaces for the remote procedure calls. This is what the interface &lt;a href=&quot;https://github.com/theia-ide/sprotty/blob/master/server/xtext-diagram/src/main/java/io/typefox/sprotty/server/xtext/DiagramEndpoint.xtend&quot;&gt;&lt;em&gt;DiagramEndpoint&lt;/em&gt;&lt;/a&gt; is doing on the server side: It uses annotations from &lt;a href=&quot;https://github.com/eclipse/lsp4j&quot;&gt;lsp4j&lt;/a&gt; to add a JSON-RPC method &lt;em&gt;diagram/accept&lt;/em&gt; that takes an &lt;em&gt;ActionMessage&lt;/em&gt; as parameter to both endpoints of the communication.&lt;/p&gt;&lt;pre class=&quot;crayon-plain-tag&quot;&gt;@JsonSegment('diagram')
+public interface DiagramEndpoint extends Consumer {
+   @JsonNotification
+   void accept(ActionMessage actionMessage);
+}&lt;/pre&gt;&lt;p&gt;
+In LSP you usually define a separate method for each functionality. For sprotty, we use the more generic approach with a single method &lt;em&gt;accept&lt;/em&gt; taking a polymorphic &lt;em&gt;ActionMessage&lt;/em&gt; parameter. This allows users to add any kind of custom actions they want without having to fiddle with the details of JSON-RPC.&lt;/p&gt;
+&lt;p&gt;Xtext provides the interface &lt;em&gt;ILanguageServerExtension&lt;/em&gt; to define language specific extensions to the LSP. By creating and binding a &lt;em&gt;YangLanguageServerExtension&lt;/em&gt; that implements both &lt;em&gt;ILanguageServerExtension &lt;/em&gt;and &lt;em&gt;DiagramEndpoint&lt;/em&gt;, the YANG language server is capable of receiving &lt;em&gt;Actions&lt;/em&gt; from a sprotty diagram client. By adding the same interface to the client endpoint, the server can also send &lt;em&gt;Actions&lt;/em&gt; to the client.&lt;/p&gt;&lt;pre class=&quot;crayon-plain-tag&quot;&gt;public class YangLanguageServerExtension 
+    implements DiagramEndpoint, ILanguageServerExtension {
+...
+}&lt;/pre&gt;&lt;p&gt;
+At least for us, adding diagrams to Xtext-based language servers is going to be a common task, so we’ve added a lot of infrastructure around this. The code is mostly contained in the project &lt;a href=&quot;https://github.com/theia-ide/sprotty/tree/master/server/xtext-diagram&quot;&gt;xtext-diagram&lt;/a&gt; within sprotty. It also contains the mechanics needed for updating diagram models when documents change, synchronizing selection, tracing etc.&lt;/p&gt;
+&lt;p&gt;For YANG, we have implemented the &lt;em&gt;IDiagramGenerator&lt;/em&gt; interface. This is called within the Xtext language server for all changed files. Its task is to transform the EMF model of the modified document to a sprotty diagram model (SModel) that describes the associated diagram. As part of the YANG language server, this generator is reused by all our YANG tools.&lt;/p&gt;
+&lt;h3&gt;Sprotty Diagrams in Theia&lt;/h3&gt;
+&lt;p&gt;The npm package &lt;a href=&quot;https://github.com/theia-ide/theia-sprotty&quot;&gt;theia-sprotty&lt;/a&gt; contains the glue code to have – you guessed it – sprotty diagrams in the Theia IDE. The code is the same for Theia’s browser and Electron mode. It defines things like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a diagram widget that is backed by a sprotty diagram server,&lt;/li&gt;
+&lt;li&gt;communication with a sprotty-extended language server backend,&lt;/li&gt;
+&lt;li&gt;alignment of the different DI containers (one container per app in Theia, one per diagram instance in sprotty), and&lt;/li&gt;
+&lt;li&gt;synchonization of editor and diagram selection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The code is generic and can be reused directly as an npm dependency.&lt;/p&gt;
+&lt;p&gt;As a Theia diagram implementor, you have to make the Theia extension of your language diagram-aware. This involves&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;implementing a DiagramManager, a DiagramConfiguration, and a sprotty DI configuration for each diagram type,&lt;/li&gt;
+&lt;li&gt;adding DI bindings for these in the frontend module,&lt;/li&gt;
+&lt;li&gt;create a sprotty DI module for each diagram type, and&lt;/li&gt;
+&lt;li&gt;implement the sprotty diagram client (diagram model, model factory, views, commands etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Have a look at the package &lt;em&gt;theia-yang-extension&lt;/em&gt; in the project &lt;a href=&quot;https://github.com/theia-ide/yangster&quot;&gt;yangster&lt;/a&gt; to see how we did that for YANG.&lt;br /&gt;
+The last point has been extracted to a separate repo &lt;a href=&quot;https://github.com/theia-ide/yang-sprotty&quot;&gt;yang-sprotty&lt;/a&gt; to be reusable in the Eclipse IDE.&lt;/p&gt;
+&lt;h3&gt;Sprotty Diagrams in Eclipse&lt;/h3&gt;
+&lt;p&gt;For Eclipse, we use SWT’s browser widget to render sprotty diagrams.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;https://github.com/theia-ide/yang-eclipse&quot;&gt;yangster-eclipse&lt;/a&gt; we spawn a Jetty server to host JavaScript and CSS files for the client and to parse request parameters, e.g. for the YANG file or for the color theme in use. Each Eclipse diagram view opens a web socket to this Jetty server, which is used to relay sprotty &lt;em&gt;Actions&lt;/em&gt; between the YANG language server and the diagram. Some of these &lt;em&gt;Actions&lt;/em&gt; are intercepted, e.g. to open Eclipse’s file selection dialog when exporting a diagram as an SVG image. You will find the corresponding code in the plug-in &lt;em&gt;io.typefox.yang.eclipse.diagram&lt;/em&gt; of the yangster-eclipse feature.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14392&quot; style=&quot;width: 610px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14392&quot; height=&quot;450&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/sprotty_eclipse-300x225.png&quot; width=&quot;600&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;LSP editors and sprotty diagrams in Eclipse&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 11 Oct 2017 06:27:46 +0000</pubDate>
+</item>
+<item>
+	<title>Doug Schaefer: The Dream, my IDE Dream</title>
+	<guid isPermaLink="false">https://cdtdoug.ca/tag/eclipse/rss/59dd05f04bfcdf78894a43bb</guid>
+	<link>https://cdtdoug.ca/the-dream-my-ide-dream/</link>
+	<description>&lt;div class=&quot;kg-card-markdown&quot;&gt;&lt;p&gt;Let me tell you a story.&lt;/p&gt;
+&lt;p&gt;I got into work today and found an e-mail in my inbox from my boss. A customer was having an issue and he wanted me to look at it. He included in the e-mail a link to the JIRA. I clicked on the link and it opened up.&lt;/p&gt;
+&lt;p&gt;The good news is that the JIRA included an analysis from our fault analysis AI engine. I clicked on a link and it brought up the report.&lt;/p&gt;
+&lt;p&gt;The engine had seen the same crash the customer reported a few times and analyzed my source to pinpoint where it was wondering if a value passed into the API was not being handled properly. OK, let me try this in the simulator with the debugger. I click a link and git checks out the corresponding version of the software stack used in one of the crashes.&lt;/p&gt;
+&lt;p&gt;Running it in the debugger, I see, that yes, the engine was right. One of the clients was passing in a value that I wasn't expecting. So I added code to handle it and ran it with the simulator again. Worked there, but to make sure I changed the target selector and to run it on some real hardware. A VNC session opens up and I can see that it fixed it there too.&lt;/p&gt;
+&lt;p&gt;I then click commit. All the relevant information from the investigation so far is automatically added to the commit comments and I add a quick line apologizing for missing this scenario and click submit to Gerrit. The review opens up and I do a quick check to make sure everything I wanted was there. I then see that the verify job has started up on Jenkins and I go for a coffee.&lt;/p&gt;
+&lt;p&gt;When I get back, I have a notification that the verify job has failed due to one of the tests failing. I click through to see the test and click another button for git to checkout the test and to start it running on the simulator under the debugger. A breakpoint is hit at the failure and I see I messed up the handling for the value it was passing in.&lt;/p&gt;
+&lt;p&gt;I make a quick fix, run the test again. It passes. I run the test I was doing for the original scenario and see it's working too. I amend the commit and resubmit. The Jenkins build passes and I do the final commit to the branch.&lt;/p&gt;
+&lt;p&gt;A few days later, I get a notification from our fault analysis AI engine. It has noticed that since my change, the crashes no longer happens. With that confidence, I mark the JIRA as verified and the customer is happy.&lt;/p&gt;
+&lt;p&gt;This is what I want from my IDE. I didn't use the term IDE in the description because everything I interfaced with to solve the customer's problem was the IDE (yes, even the mail client). We have all of this already, except maybe the AI engine, but that will come. What we're missing are the little things we get from these tools knowing about eachother. It's the &quot;I&quot; in IDE!&lt;/p&gt;
+&lt;p&gt;Mik Kersten envisioned this many years ago when he invented Mylyn. And I've seen a lot of this in IBM's Jazz. I think a lot of those ideas were ahead of their time and on a platform that struggles with being this complete environment. Workflows start with the cloud for the analysis phase, then meander into the desktop code and debug environments to test and fix the problem, and then back into the cloud for verification and closure.&lt;/p&gt;
+&lt;p&gt;The next generation IDE needs to seamlessly blend these tools so you don't even notice where things are running or even when you've switched between them. You know you're using a great IDE when you don't even realize you're using it.&lt;/p&gt;
+&lt;/div&gt;</description>
+	<pubDate>Tue, 10 Oct 2017 18:08:34 +0000</pubDate>
+</item>
+<item>
+	<title>InfoQ Eclipse feed: Eclipse Issue Open Call for Enterprise Java Participation</title>
+	<guid isPermaLink="true">http://www.infoq.com/news/2017/10/EE4JNeedsU?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
+	<link>http://www.infoq.com/news/2017/10/EE4JNeedsU?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
+	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;The Eclipse Foundation has issued an open invitation for developers to get involved with the next phase of development of Java EE technologies.&lt;/p&gt; &lt;i&gt;By Ben Evans&lt;/i&gt;</description>
+	<pubDate>Tue, 10 Oct 2017 06:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>InfoQ Eclipse feed: Article: The Java Evolution of Eclipse Collections</title>
+	<guid isPermaLink="true">http://www.infoq.com/articles/eclipse-collections?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
+	<link>http://www.infoq.com/articles/eclipse-collections?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
+	<description>&lt;img src=&quot;https://cdn.infoq.com/statics_s2_20171017-0336/resource/articles/eclipse-collections/en/headerimage/logo-eclipse-big-1506697105275.jpg&quot; /&gt;&lt;p&gt;With each successive version of Java, frameworks must adapt and transform in order to stay current. This article aims to describe some of the new Java 8 features in Eclipse Collections, a high performance collections framework for Java, and looks ahead at some of the new things we’ve done to prepare for Java 9. This article will walk through these new features and changes.&lt;/p&gt; &lt;i&gt;By Kristen O'Leary&lt;/i&gt;</description>
+	<pubDate>Mon, 09 Oct 2017 20:55:00 +0000</pubDate>
+</item>
+<item>
+	<title>typefox.io: YANG-Tools: One Language Server for Four IDEs</title>
+	<guid isPermaLink="false">http://typefox.io/?p=14378</guid>
+	<link>http://typefox.io/yang-tools-one-language-server-for-four-ides</link>
+	<description>&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;
+			&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+				&lt;p&gt;There is a lot of hype around the &lt;a href=&quot;https://github.com/Microsoft/language-server-protocol&quot;&gt;Language Server Protocol:&lt;/a&gt; It allows language implementors to encapsulate the editor support for their language in a server that can talk to various clients through a JSON-based protocol. While initially designed for Visual Studio Code, lots of other editor clients started supporting it, and lots of language servers for all kind of languages have emerged.&lt;/p&gt;
+&lt;p&gt;In this post we will showcase a single language server for the YANG language, implemented with &lt;a href=&quot;http://www.eclipse.org/Xtext/&quot;&gt;Xtext&lt;/a&gt;, that is attached to three different client frameworks: VSCode, the Theia IDE and Eclipse. As Theia allows for both, a browser-based IDE and an Electron-based rich-client, this yields four different kinds of IDEs. All sources are openly available on Github.&lt;/p&gt;
+&lt;h3&gt;The YANG Language Server&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.yang-central.org&quot;&gt;YANG&lt;/a&gt; is a data modeling language used to model configuration and state data manipulated by the NETCONF protocol, remote procedure calls, and notifications.&lt;/p&gt;
+&lt;p&gt;In the project &lt;a href=&quot;https://github.com/theia-ide/yang-lsp&quot;&gt;yang-lsp&lt;/a&gt; we implemented a YANG language server using Xtext. As Christian pointed out in a &lt;a href=&quot;http://typefox.io/tutorial-building-a-language-server-for-your-dsl&quot;&gt;previous blogpost&lt;/a&gt;, Xtext can generate an LSP with little effort. Like almost every language, YANG has some pecularites that required to customize services like validation, scoping, and formatting. To improve the user experience, we also tweaked some language server IDE services such as content assist, code lens, symbols and more. Xtext’s dependency injection makes such customizations easy. Nevertheless, the extra effort is something you would like to avoid redoing for every IDE out there using the respective native APIs.&lt;/p&gt;
+&lt;p&gt;The YANG language server is written in &lt;a href=&quot;http://www.eclipse.org/xtend/&quot;&gt;Xtend&lt;/a&gt;, a Java dialect, so you have to run Gradle to build it. A language server is typically run in its own process, so this build also creates some scripts to start the LS. The running server is then connected to the client via standard input/output or a socket.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14382&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14382&quot; height=&quot;480&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.51.50-300x188.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in VSCode&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;The VSCode Client&lt;/h3&gt;
+&lt;p&gt;VSCode is an extensible, lightweight, open source IDE from Microsoft. In &lt;a href=&quot;https://github.com/theia-ide/yang-vscode&quot;&gt;yang-vscode&lt;/a&gt;, we implemented an extension for VSCode based on yang-lsp. It mostly consists of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an activate method that starts the language server,&lt;/li&gt;
+&lt;li&gt;the configuration for things like syntax highlighting and bracket matching, which in VSCode are always done by the client, and&lt;/li&gt;
+&lt;li&gt;the config files for a VSCode extension.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See also &lt;a href=&quot;http://typefox.io/building-a-vs-code-extension-with-xtext-and-the-language-server-protocol&quot;&gt;Miro’s blogpost&lt;/a&gt; on VSCode extensions with Xtext for more details.&lt;/p&gt;
+&lt;p&gt;You can install the yang extension directly from &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=typefox.yang-vscode&quot;&gt;VSCode’s marketplace&lt;/a&gt;. If you want to build it from the sources, you have to have the yang-lsp project checked out and readily built in a folder next to the yang-vscode repo, as it will be copied during the build.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14380&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14380&quot; height=&quot;482&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-14.00.17-300x189.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in Theia (browser mode)&lt;/p&gt;&lt;/div&gt;
+&lt;h3&gt;The Theia Client&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://typefox.io/theia-one-ide-for-desktop-cloud&quot;&gt;Theia&lt;/a&gt; is a new framework for IDEs that run in the browser or as rich-clients using the same code. It is written in TypeScript, has first class support for the LSP and uses Microsoft’s editor widget Monaco. Theia is not officially released yet, but a beta 1.0 is scheduled for December 2017.&lt;/p&gt;
+&lt;p&gt;The project &lt;a href=&quot;https://github.com/theia-ide/yangster&quot;&gt;yangster&lt;/a&gt; contains the Theia extension for the YANG language. The project is layouted as a mono-repo, containing various npm packages and linking in others as Git submodules. While this setup looks complicated at the first glance, it makes it possible to work on YANG, Theia, and sprotty at the same time. The yang-lsp will be copied from our Jenkins during build.&lt;/p&gt;
+&lt;p&gt;The core package is the theia-yang-extension: It adds the bindings for the YANG specific services to Theia’s DI container, registers context menus, and sets up syntax highlighting for the frontend. It also starts the language server on demand in the backend.&lt;/p&gt;
+&lt;p&gt;The packages yangster-app and yangster-app-electron contain the code to run Theia with the YANG extension as browser app or electron rich-client. Theia comes with a command line tool that will populate these packages with generated code during the build.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14383&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14383&quot; height=&quot;476&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.50.13-300x186.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in Theia (electron mode)&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;For build instructions please refer to the project’s readme.&lt;/p&gt;
+&lt;h3&gt;The Eclipse Client&lt;/h3&gt;
+&lt;p&gt;Last but not least, we’ve integrated the yang-lsp into Eclipse. We are using the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.lsp4e&quot;&gt;lsp4e&lt;/a&gt; here, which allows a generic Eclipse editor to be backed by a language server. The easiest way to install it is from the &lt;a href=&quot;https://marketplace.eclipse.org/content/yang-eclipse&quot;&gt;Eclipse Marketplace&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The project &lt;a href=&quot;https://github.com/theia-ide/yang-eclipse&quot;&gt;yang-eclipse&lt;/a&gt; mainly contains a plug-in to adapt to lsp4e, i.e.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;start the yang-lsp,&lt;/li&gt;
+&lt;li&gt;define syntax highlighting using TextMate syntax, and&lt;/li&gt;
+&lt;li&gt;add some nice icons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that event though the client is also written in Xtend/Java here, we start the language server using the same mechanisms as above in a separate process.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_14384&quot; style=&quot;width: 776px;&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14384&quot; height=&quot;482&quot; src=&quot;http://typefox.io/wp-content/uploads/2017/10/Screen-Shot-2017-10-06-at-13.46.59-300x189.png&quot; width=&quot;766&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;The YANG editor in Eclipse&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Xtext can of course generate a native Eclipse editor as well, which would usually have a few more features and a slightly better user experience. We refrained from this approach this time, not only for the sake of demoing an LSP in Eclipse, but also because we would have had to reimplement some IDE features using the native Eclipse APIs and as such have twice as much code to maintain.&lt;/p&gt;
+&lt;h3&gt;And Where Do The Diagrams Come From?&lt;/h3&gt;
+&lt;p&gt;If you have watched the screenshots closely or if you have browsed the code, you may have stumbled across the fancy diagrams. To keep the suspense, we will cover that in a &lt;a href=&quot;http://typefox.io/extending-a-language-server-with-sprotty-diagrams&quot;&gt;separate blogpost&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;tl;dr&lt;/h3&gt;
+&lt;p&gt;In the post you have seen how a single language server implemented in Xtext is adding support for the YANG language to four different IDEs. Only little IDE specific boilerplate is necessary, mainly to start the server and to implement services that are considered client-only by the LSP, like syntax highlighting.&lt;/p&gt;
+&lt;p&gt;We stopped at four IDEs, but there are also LSP bindings for sublime, Emacs, vim and more editors. It should be easy to serve these in the same way.&lt;/p&gt;
+&lt;p&gt;I hope I convinced you that the combination of Xtext with the LSP is a viable way to add language support to more than one IDE.&lt;/p&gt;
+&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Sat, 07 Oct 2017 17:55:17 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Papyrus IC at MODELS 2017</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=941</guid>
+	<link>https://papyrusuml.wordpress.com/2017/10/06/papyrus-ic-at-models-2017/</link>
+	<description>&lt;div&gt;The Papyrus Industry Consortium had a significant presence at the ACM/IEEE 20th International Conference on Model Driven Engineering Languages and Systems (&lt;a href=&quot;https://www.cs.utexas.edu/models2017/home&quot;&gt;MODELS 2017&lt;/a&gt;), held from Sunday, September 17, 2017 through Friday, September 22 in Austin, Texas, U.S.A..&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The Consortium was a GOLD sponsor of the event and had a booth with posters from several of its members. It also sponsored an event at the Easy Tiger pub near the conference hotel.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The conference was a great opportunity to meet many academic and industrial members of the MODELS community, and spread the word about the Papyrus ecosystem and the Papyrus IC. Members and participants of the consortium presented keynotes, conference and workshop papers and tutorials, and organized several workshops.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Prof. Juergen Dingel from Queen’s University gave a very well-received keynote of the EXE workshop, titled “UML-RT and Papyrus-RT: Towards an Open-Source MDE Tooling Infrastructure for the Internet of Things.”&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The two tutorials on Papyrus and Papyrus-RT, “Embedded and reactive systems development with UML-RT and Papyrus-RT” by Nicolas Hili, Juergen Dingel (Queen’s University), Ernesto Posse (Zeligsoft) and “Developing Domain-specific Modeling Tools with Papyrus” by Philip Langer (EclipseSource), Florian Noyrit (CEA) and Rémi Schneckenburger (CEA), where also quite well-received.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;The &lt;a href=&quot;https://wiki.polarsys.org/Papyrus_IC/Research_Academia&quot;&gt;Papyrus IC Research/Academia&lt;/a&gt; committee has begun planning a Papyrus event for &lt;a href=&quot;http://www.modelsconference.org&quot;&gt;next year’s conference&lt;/a&gt; which will be held in Copenhagen, Denmark. We hope to see you there!&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img alt=&quot;Models 2017 PIC Booth-ori enhanced&quot; class=&quot;alignnone size-full wp-image-944&quot; src=&quot;https://papyrusuml.files.wordpress.com/2017/10/models-2017-pic-booth-ori-enhanced.jpeg?w=604&quot; /&gt;&lt;/div&gt;
+&lt;div&gt;(Papyrus IC booth at MODELS 2017 in Austin, Texas, U.S.A.)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/941/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/941/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=941&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 06 Oct 2017 17:08:56 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Legal Documentation Requirements for Eclipse Projects</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5258</guid>
+	<link>https://waynebeaton.wordpress.com/2017/10/06/legal-documentation-requirements-for-eclipse-projects/</link>
+	<description>&lt;p&gt;Late last week, I pushed out an update to our documentation regarding the legal documentation requirements for Eclipse projects that Sharon Corbett and I have been working on over the past quarter. In the process, we moved the guidelines off of the main website and rolled them in to the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc&quot;&gt;Eclipse Project Handbook&lt;/a&gt;. Our primary goal in revising this documentation was to make it more generally applicable to all open source projects and bring us more in line with what the rest of the open source world does.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; probably isn’t the right word. It’s more accurate to say that we’ve pushed out some general guidelines and that the old/existing documentation becomes instructions for how to apply those general guidelines in the case where your project builds &lt;em&gt;Eclipse Platform Plug-ins and Features&lt;/em&gt;.  In this regard, the existing documentation was very much concerned with the technical aspects of how to provide legal documentation in a manner that they can be presented to the user via the “About Eclipse” dialog (there’s no particular value in changing how all that works).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;That is, if you’re building Eclipse Platform Plug-ins and Features under the Eclipse Public License (EPL) 1.0, we’re not asking you to change anything. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I’m going to repeat that. &lt;strong&gt;Don’t panic.&lt;/strong&gt; If you’re building Eclipse Platform Plug-ins and Features, just keep doing what you’re doing. If you’re planning to update to the &lt;a href=&quot;https://www.eclipse.org/legal/epl-2.0/&quot;&gt;Eclipse Public License 2.0&lt;/a&gt; (EPL-2.0), we’ll need to talk (more on this later).&lt;/p&gt;
+&lt;p&gt;The gist of it is that in the general case, project teams are required to include &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc-license&quot;&gt;license&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc-notice&quot;&gt;notices&lt;/a&gt; in both their project repositories and in the output form of their project code (generally the result of compiling/building, e.g. JAR files). For consistency across our own projects and the greater community, we’re recommending that these files be named &lt;em&gt;LICENSE&lt;/em&gt; and &lt;em&gt;NOTICE&lt;/em&gt; (with optional extensions). Variations based on technical limitations are acceptable. The license and notice files should be in plain text. The use of a favourite markup language is fine, but not required.&lt;/p&gt;
+&lt;p&gt;There’s a lot more information in the document, so I’ll avoid trying to repeat it here. One thing that you’ll notice is that we’ve tightened up the copyright header text a bit by removing the “All rights reserved”. &lt;em&gt;There’s no need to change any headers that include this statement: &lt;/em&gt;it’s not necessarily wrong to include the statement, it just doesn’t really add any value.&lt;/p&gt;
+&lt;p&gt;You’ll notice that there’s an appendix in the document for projects that are building &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#legaldoc-plugins&quot;&gt;Eclipse Platform Plug-ins and Features under the EPL-2.0&lt;/a&gt;. There’s a few rough edges here that we still need to work out (there a link to an issue in Bugzilla if you want to contribute your thoughts). One thing that we discovered while working on these changes is that basically nobody in the open source community has anything like our &lt;a href=&quot;https://www.eclipse.org/legal/epl/notice.php&quot;&gt;Software User Agreement&lt;/a&gt; (SUA) which is effectively an End User License Agreement (EULA). Since a project that updates to the EPL-2.0 will have to update all of their legal documentation, we figured that we use the opportunity to drop the SUA and instead just use the license text in places that call for a license (AFAICT most third party plug-in providers do this).&lt;/p&gt;
+&lt;p&gt;To make getting the legal documentation right a little easier for project teams, I’ve started working on an &lt;em&gt;experimental&lt;/em&gt; script that uses the information in the Eclipse Foundation database to generate at least some or all of the required documentation.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eclipse.org/projects/tools/about.php?id=%5BProjectId%5D&quot; rel=&quot;nofollow&quot;&gt;https://www.eclipse.org/projects/tools/about.php?id=%5BProjectId%5D&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Take note that this script is experimental and may not be entirely correct (maybe consider using this as a template or a starting point; ultimately it’s up to the project teams to make sure that the notice file is correct). If you do notice something that seems wrong with the data (e.g. wrong license or trademark statement), send a quick note to emo@eclipse.org; if it looks like the rendering is wrong or that there is some technical issue, please open a bug against &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Community&amp;amp;component=Process&quot;&gt;Community/Process&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.eclipsecon.org/europe2017&quot;&gt;&lt;img alt=&quot;EclipseCon Europe 2017&quot; border=&quot;0&quot; height=&quot;90&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/ece_2017_728%20x%2090.png&quot; width=&quot;728&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/waynebeaton.wordpress.com/5258/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/waynebeaton.wordpress.com/5258/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=waynebeaton.wordpress.com&amp;amp;blog=19425814&amp;amp;post=5258&amp;amp;subd=waynebeaton&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 06 Oct 2017 16:12:13 +0000</pubDate>
+</item>
+<item>
+	<title>Benjamin Cabe: Hack the Eclipse IoT Open Testbeds at EclipseCon Europe</title>
+	<guid isPermaLink="false">https://blog.benjamin-cabe.com/?p=2935</guid>
+	<link>http://feedproxy.google.com/~r/benjamin-cabe-planet-eclipse/~3/AWvt_e8GX9M/iot-testbeds-hackday-eclipsecon</link>
+	<description>&lt;p&gt;By now you are probably pretty aware that EclipseCon Europe, coming in just a few weeks in Ludwigsburg, Germany, Oct 22-25, will feature &lt;a href=&quot;https://www.eclipsecon.org/europe2017/iot&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;All Things IoT&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;But wait, there’s more! We will use the opportunity of having a lot of people from the Eclipse IoT community in the same location to spend some time hacking the &lt;a href=&quot;https://iot.eclipse.org/testbeds&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Open IoT Testbeds&lt;/strong&gt;&lt;/a&gt; on Wednesday, October 24.&lt;/p&gt;
+&lt;h2&gt;“What can I expect from the Testbed Hackday?”&lt;/h2&gt;
+&lt;p&gt;As we will be unveiling a new testbed focusing on Production Performance Management of industrial equipment, and with the Asset Tracking Management testbed well on its way, there will be many people who have been working on these testbeds attending the hack day.&lt;/p&gt;
+&lt;p&gt;They will be available all day to discuss (and experiment live!) how to extend them, and of course ready to show you how they are built.&lt;/p&gt;
+&lt;h2&gt;“Why should I attend?”&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If your company is creating &lt;strong&gt;IoT products that you would like to integrate&lt;/strong&gt; with the &lt;a href=&quot;https://iot.eclipse.org/testbeds&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;existing testbeds&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;If you are involved in an Eclipse or Eclipse IoT project and would like to &lt;strong&gt;see how your project can get involved&lt;/strong&gt; complement the solutions already demonstrated in the existing testbeds,&lt;/li&gt;
+&lt;li&gt;You want to experiment with the actual &lt;strong&gt;hardware&lt;/strong&gt; that the testbeds are featuring,&lt;/li&gt;
+&lt;li&gt;You are interested in &lt;strong&gt;starting a new testbed&lt;/strong&gt; and would like to gauge the interest of the community and brainstorm some ideas face-to-face.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please let me know if you plan on attending! I think the Open IoT Testbeds are a great opportunity for people and companies to collaborate on real use cases, and to demonstrate by example how open source, complemented by a strong commercial ecosystem, can jump-start the development of IoT solutions.&lt;/p&gt;
+&lt;p&gt;I really think the Open IoT Testbeds are a great opportunity for people and companies to collaborate on real use cases, and to demonstrate by example how open source, complemented by a strong commercial ecosystem, can jump-start the development of IoT solutions. If you share this conviction, you really don’t want to miss the hack day… and all the other days of &lt;a href=&quot;https://www.eclipsecon.org/europe2017&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;EclipseCon Europe&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.eclipsecon.org/europe2017&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;EclipseCon Europe 2017&quot; border=&quot;0&quot; height=&quot;90&quot; src=&quot;https://www.eclipsecon.org/europe2017/sites/default/files/ece_2017_728%20x%2090.png&quot; width=&quot;728&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+ &lt;p&gt;The post &lt;a href=&quot;https://blog.benjamin-cabe.com/2017/10/06/iot-testbeds-hackday-eclipsecon&quot; rel=&quot;nofollow&quot;&gt;Hack the Eclipse IoT Open Testbeds at EclipseCon Europe&lt;/a&gt; appeared first on &lt;a href=&quot;https://blog.benjamin-cabe.com&quot; rel=&quot;nofollow&quot;&gt;Benjamin Cabé&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/benjamin-cabe-planet-eclipse/~4/AWvt_e8GX9M&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 06 Oct 2017 15:48:26 +0000</pubDate>
+</item>
+
+</channel>
+</rss>
