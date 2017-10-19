@@ -1,0 +1,8 @@
+2017-10-17 21:13:32,454 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-18 06:50:44,868 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @34679723ms
+2017-10-18 06:50:46,196 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-10-18 06:50:46,493 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@742af58a{/help,null,AVAILABLE}
+2017-10-18 06:50:46,774 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@59bf3842{HTTP/1.1,[http/1.1]}{127.0.0.1:59786}
+2017-10-18 06:50:46,774 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @34681635ms
+2017-10-18 06:56:48,171 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@59bf3842{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-10-18 06:56:48,250 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@742af58a{/help,null,UNAVAILABLE}
