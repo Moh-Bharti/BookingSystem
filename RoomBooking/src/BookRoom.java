@@ -6,6 +6,7 @@ import javafx.event.*;
 import javafx.scene.*;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
+import javafx.scene.paint.*;
 public class BookRoom extends Application {
 
 	@Override
@@ -13,12 +14,13 @@ public class BookRoom extends Application {
 		primaryStage.setTitle("Booking System");
         Button btn = new Button();
         TextField txt=new TextField();
+        
         btn.setText("Say 'Hello Naruto And Goku'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
        
             @Override
             public void handle(ActionEvent event) {
-                System.out.println("Hello World!");
+                System.out.println("Hello bombay");
             }
         });
         
@@ -39,4 +41,37 @@ public class BookRoom extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
+}
+class Dialog extends Stage{
+	public Dialog(Stage User){
+		super();
+		initOwner(User);
+		setTitle("Username And Password");
+		Group root=new Group();
+		Scene scene=new Scene(root,220,400,Color.BLUE);
+		setScene(scene);
+		
+		GridPane gridpane=new GridPane();
+		gridpane.setPadding(new Insets(5));
+		gridpane.setVgap(5);
+		gridpane.setHgap(5);
+		
+		Label user=new Label("LoginId");
+		gridpane.add(user, 0, 1);
+		
+		Label password=new Label("Password");
+		gridpane.add(password, 0, 2);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
