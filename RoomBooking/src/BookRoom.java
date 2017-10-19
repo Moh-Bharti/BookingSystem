@@ -14,13 +14,17 @@ public class BookRoom extends Application {
 		primaryStage.setTitle("Booking System");
         Button btn = new Button();
         TextField txt=new TextField();
-        
+        Group room=new Group();
+        Scene scenario=new Scene(room,400,300,Color.WHEAT);
         btn.setText("Say 'Hello Naruto And Goku'");
         btn.setOnAction(new EventHandler<ActionEvent>() {
        
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Hello bombay");
+                Stage Dialog=new Dialog(primaryStage);
+                Dialog.sizeToScene();
+                Dialog.show();
             }
         });
         
@@ -48,7 +52,7 @@ class Dialog extends Stage{
 		initOwner(User);
 		setTitle("Username And Password");
 		Group root=new Group();
-		Scene scene=new Scene(root,220,400,Color.BLUE);
+		Scene scene=new Scene(root,220,400,Color.ORANGE);
 		setScene(scene);
 		
 		GridPane gridpane=new GridPane();
@@ -57,10 +61,27 @@ class Dialog extends Stage{
 		gridpane.setHgap(5);
 		
 		Label user=new Label("LoginId");
+		user.fontProperty();
 		gridpane.add(user, 0, 1);
 		
 		Label password=new Label("Password");
 		gridpane.add(password, 0, 2);
+		
+		TextField Id=new TextField();
+		gridpane.add(Id,1,1);
+		
+		PasswordField field=new PasswordField();
+		gridpane.add(field, 1, 2);
+		
+		Button login=new Button("change");
+		login.setOnAction(new EventHandler<ActionEvent>(){
+			public void handle(ActionEvent event){
+				close();
+			}
+		});
+		gridpane.add(login,1,3);
+		GridPane.setHalignment(login,HPos.RIGHT);
+		root.getChildren().add(gridpane);
 	}
 	
 	
