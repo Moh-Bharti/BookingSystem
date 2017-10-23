@@ -16,6 +16,7 @@ public class Main extends Application {
         Button btnLogin = new Button();
         Button btnSignUp = new Button();
         Group room=new Group();
+        Scene scenario=new Scene(room,1500,700,Color.BLUE);
         btnLogin.setText("Login");
         btnLogin.setOnAction(new EventHandler<ActionEvent>() {
         
@@ -39,16 +40,17 @@ public class Main extends Application {
             }
         });
         
-        StackPane root = new StackPane();
-        btnLogin.setTranslateY(-250.0);
-        btnLogin.setTranslateX(-300.0);
-        btnSignUp.setTranslateY(-300.0);
-        btnSignUp.setTranslateX(-300.0);
+        GridPane root = new GridPane();
+//        btnLogin.setTranslateY(-250.0);
+//        btnLogin.setTranslateX(-300.0);
+//        btnSignUp.setTranslateY(-300.0);
+//        btnSignUp.setTranslateX(-300.0);
        // root.setPadding(new Insets(100));
-        root.getChildren().add(btnLogin);
-        root.getChildren().add(btnSignUp);
-
-        Scene scenario=new Scene(root,1500,700,Color.WHEAT);
+        root.add(btnLogin,5,5);
+        root.add(btnSignUp,1,1);
+        room.getChildren().add(root);
+ 
+        
         primaryStage.setScene(scenario);
         primaryStage.show();
 	}
