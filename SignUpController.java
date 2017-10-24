@@ -9,6 +9,10 @@ import javafx.scene.control.TextField;
 public class SignUpController {
 @FXML
 private Button m;
+@FXML
+private Button m6;
+@FXML
+private Button m7;
 
 @FXML
 private PasswordField m1;
@@ -16,4 +20,6 @@ private PasswordField m1;
 private PasswordField m2;
 @FXML
 private Label m3;
+@FXML
+private TextField m4;
 }

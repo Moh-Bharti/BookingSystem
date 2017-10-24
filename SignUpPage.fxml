@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="328.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
    <children>
       <TextField fx:id="m4" layoutX="91.0" layoutY="96.0" promptText="Email" />
@@ -18,6 +17,8 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Button fx:id="m" layoutX="140.0" layoutY="246.0" mnemonicParsing="false" text="signup" />
+      <Button fx:id="m" layoutX="140.0" layoutY="246.0" mnemonicParsing="false" text="Student signup" />
+      <Button fx:id="m7" layoutX="240.0" layoutY="246.0" mnemonicParsing="false" text="Faculty Signup" />
+      <Button fx:id="m6" layoutX="39.0" layoutY="246.0" mnemonicParsing="false" text="Admin Signup " />
    </children>
 </AnchorPane>
