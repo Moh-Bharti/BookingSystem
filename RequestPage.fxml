@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TextField maxWidth="180.0" translateX="-180.0" translateY="-140.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <BorderPane prefHeight="543.0" prefWidth="159.0" BorderPane.alignment="CENTER">
+         <center>
+            <SplitPane dividerPositions="0.025806451612903226" prefHeight="502.0" prefWidth="145.0" BorderPane.alignment="CENTER">
+               <items>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="492.0" prefWidth="148.0">
+                     <children>
+                        <Button layoutY="129.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="149.0" text="Reason" />
+                        <Button layoutY="172.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="149.0" text="Required Capacity" />
+                        <Button layoutX="1.0" layoutY="213.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="149.0" text="Date" />
+                        <Button layoutY="95.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" text="Room No." />
+                        <Button layoutX="1.0" layoutY="252.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="149.0" text="Time" />
+                        <TextField layoutX="1.0" layoutY="63.0" prefHeight="25.0" prefWidth="170.0" translateX="170.0" translateY="150.0" />
+                        <TextField blendMode="BLUE" layoutX="11.0" layoutY="73.0" prefHeight="25.0" prefWidth="180.0" promptText="Reason" translateX="150.0" translateY="70.0" />
+                        <TextField layoutX="161.0" layoutY="138.0" prefHeight="25.0" prefWidth="182.0" />
+                        <TextField layoutX="161.0" layoutY="220.0" prefHeight="25.0" prefWidth="184.0" />
+                        <TextField layoutX="171.0" layoutY="230.0" prefHeight="25.0" prefWidth="184.0" />
+                        <TextField layoutX="181.0" layoutY="240.0" prefHeight="25.0" prefWidth="184.0" translateX="-19.0" translateY="-65.0" />
+                        <TextField layoutX="181.0" layoutY="240.0" prefHeight="25.0" prefWidth="184.0" translateX="-20.0" translateY="20.0" />
+                     </children>
+                  </AnchorPane>
+               </items>
+            </SplitPane>
+         </center>
+      </BorderPane>
+   </left>
+   <top>
+      <TextField maxWidth="100.0" minWidth="10.0" text="Request Page" BorderPane.alignment="TOP_RIGHT">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </TextField>
+   </top>
+</BorderPane>
