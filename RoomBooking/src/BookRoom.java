@@ -10,8 +10,30 @@ import javafx.scene.paint.*;
 import javafx.scene.text.*;
 import javafx.scene.image.*;
 import java.io.*;
+import java.util.*;
+
+
+class Course{
+	String Time;
+	//String Post;
+	String faculty;
+	String Room;
+	List<String>Post=new ArrayList<String>();
+	
+	
+	
+}
+class Timetable{
+	
+}
+
 
 abstract class User{
+	List<Course> C=new ArrayList<Course>();
+	
+	
+	
+	
 	
 }
 class Student extends User{
