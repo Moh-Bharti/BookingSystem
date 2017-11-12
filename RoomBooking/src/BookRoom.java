@@ -12,42 +12,104 @@ import javafx.scene.image.*;
 import java.io.*;
 import java.util.*;
 
-
-class Course{
+class Room implements Serializable{
+	String RoomNo;
+	private int Capacity; 
+	boolean booked;
 	String Time;
-	//String Post;
-	String faculty;
-	String Room;
-	List<String>Post=new ArrayList<String>();
+	
+	void bookroom(){
+		booked=true;
+	}
+	
+	
+}
+class Course implements Serializable{
+	private String timeslot;
+	private List<String> post;
+	private int studentNum;
+	private String instructor;
+	private List<String> pre;
+	Room room;
+	
+	
+	
 	
 	
 	
 }
-class Timetable{
+class Timetable implements Serializable{
+	List<Course> courses;
+	List <String> day;
+	
+	void viewTimetable(){
+		
+		
+	}
 	
 }
 
 
-abstract class User{
+abstract class User implements Serializable{
 	List<Course> C=new ArrayList<Course>();
+	String login;
+	String password;
+	Timetable schedule;
 	
+	void viewTimetable(){
+		
+	}
+	void SignIn(){
+		
+	}
+	void SignOut(){
+		
+	}
 	
 	
 	
 	
 }
-class Student extends User{
+class Student extends User implements Serializable{
+	
+	void personalTimetable(){
+		
+	}
+	void sendRequest(){
+		
+	}
+	
 	
 }
-class Admin extends User{
+class Admin extends User implements Serializable{
+	
+	void AcceptRequest(){
+		
+	}
+	void DenyRequest(){
+		
+	}
+	
 	
 }
-class Faculty extends User{
+class Faculty extends User implements Serializable{
+	void bookroom(){
+		
+	}
+	Room SearchRoom(String room){
+		Room m=null;
+		return m;
+	}
 	
 }
 
-public class BookRoom extends Application {
+public class BookRoom extends Application implements Serializable {
 
+	public static void main(String[] args)throws Exception {
+		launch(args);
+	}
+	
+	
 	@Override
 	public void start(Stage primaryStage)throws Exception {
 		primaryStage.setTitle("Booking System");
@@ -110,9 +172,7 @@ public class BookRoom extends Application {
         
 	}
 
-	public static void main(String[] args)throws Exception {
-		launch(args);
-	}
+	
 }
 class Dialog extends Stage{
 	public Dialog(Stage User){
