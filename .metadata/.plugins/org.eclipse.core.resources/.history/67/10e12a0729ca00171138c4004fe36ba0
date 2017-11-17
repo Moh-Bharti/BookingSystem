@@ -1,0 +1,11 @@
+package application;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+
+public class AllCoursesController {
+	@FXML
+	private TableColumn<S, T> t1;
+
+}

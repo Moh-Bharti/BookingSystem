@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="395.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="logFaculty" layoutX="165.0" layoutY="279.0" mnemonicParsing="false" onAction="#FacLogin" text="Faculty Login" />
+      <TextField fx:id="em1" layoutX="124.0" layoutY="159.0" promptText="User Email" />
+      <PasswordField fx:id="ps1" layoutX="124.0" layoutY="228.0" promptText="Password" />
+      <Label fx:id="Head" contentDisplay="CENTER" graphicTextGap="8.0" layoutX="57.0" layoutY="61.0" pickOnBounds="false" prefHeight="55.0" prefWidth="303.0" text="                Login" textFill="#ee1919">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="logAdmin" layoutX="55.0" layoutY="279.0" mnemonicParsing="false" onAction="#AdmLogin" text="Admin Login" />
+      <Button fx:id="logStudent" layoutX="273.0" layoutY="279.0" mnemonicParsing="false" onAction="#StuLogin" text="Student Login" />
+      <Button fx:id="bb" layoutX="173.0" layoutY="334.0" mnemonicParsing="false" onAction="#menu" text="Menu" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="3978.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AllCoursesController">
+   <children>
+      <TableView layoutX="2.0" layoutY="1.0" prefHeight="602.0" prefWidth="3978.0">
+        <columns>
+          <TableColumn fx:id="t1" prefWidth="158.00006103515625" text="Mandatory/Elective" />
+          <TableColumn fx:id="t2" prefWidth="241.99996948242188" text="Name" />
+            <TableColumn fx:id="t3" prefWidth="200.0" text="Course Code" />
+            <TableColumn fx:id="t4" prefWidth="200.0" text="Instructer" />
+            <TableColumn fx:id="t5" prefWidth="136.00006103515625" text="Credits" />
+            <TableColumn fx:id="t6" prefWidth="163.0" text="Acronym" />
+            <TableColumn fx:id="t7" prefWidth="244.0" text="Monday Timings" />
+            <TableColumn fx:id="t8" prefWidth="257.0" text="Tuesday Timing" />
+            <TableColumn fx:id="t9" prefWidth="200.0" text="Wednesday Timing" />
+            <TableColumn fx:id="t10" prefWidth="200.0" text="Thursday Timing" />
+            <TableColumn fx:id="t11" prefWidth="200.0" text="Friday Timing" />
+            <TableColumn fx:id="t12" prefWidth="200.0" text="Tutorial Timing" />
+            <TableColumn fx:id="t13" prefWidth="200.0" text="Lab Timing" />
+            <TableColumn fx:id="t14" prefWidth="576.0" text="Pre-Conditions" />
+            <TableColumn fx:id="t15" prefWidth="800.0" text="Post-Conditions" />
+        </columns>
+      </TableView>
+   </children>
+</fx:root>

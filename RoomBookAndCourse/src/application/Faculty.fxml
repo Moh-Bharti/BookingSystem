@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="100.0" minWidth="100.0" prefHeight="400.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FacultyController">
+   <children>
+      <Button fx:id="b1" layoutX="54.0" layoutY="76.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="Profile" />
+      <Button fx:id="b4" layoutX="54.0" layoutY="191.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="View Booked Rooms" />
+      <Button fx:id="b2" layoutX="54.0" layoutY="113.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="View Course" />
+      <Button fx:id="b3" layoutX="54.0" layoutY="151.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="View TimeTable" />
+      <Button fx:id="b5" layoutX="54.0" layoutY="234.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="Check Room Status" />
+      <Button fx:id="b6" layoutX="54.0" layoutY="275.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="125.0" text="Book Room" />
+      <Button fx:id="b7" layoutX="54.0" layoutY="315.0" mnemonicParsing="false" onAction="#SignOut" prefHeight="30.0" prefWidth="125.0" text="Sign Out" />
+      <Label fx:id="Head" layoutX="239.0" layoutY="29.0" prefHeight="30.0" prefWidth="125.0" text="Label" />
+   </children>
+</AnchorPane>

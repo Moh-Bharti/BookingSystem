@@ -1,0 +1,68 @@
+package application;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import java.util.*;
+class schedule{
+	String start;
+	String end;
+	String Room;
+	String name;
+	schedule(String start,String end,String Room,String name){
+		this.start=start;
+		this.end=end;
+		this.Room=Room;
+		this.name=name;
+	}
+	
+}
+class show{
+	List<schedule> q=new ArrayList<schedule>();
+	
+}
+public class TimeTableController {
+	@FXML
+	private TableColumn<String,String> t1;
+	@FXML
+	private TableColumn<String,String> t2;
+	@FXML
+	private TableColumn<String,String> t3;
+	@FXML
+	private TableColumn<String,String> t4;
+	@FXML
+	private TableColumn<String,String> t5;
+	@FXML
+	private TableColumn<String,String> t6;
+	@FXML
+	private TableColumn<String,String> t7;
+	@FXML
+	private TableColumn<String,String> t8;
+	@FXML
+	private TableColumn<String,String> t9;
+	@FXML
+	private TableColumn<String,String> t10;
+	@FXML
+	private TableColumn<String,String> t11;
+	@FXML
+	private TableColumn<String,String> t12;
+	@FXML
+	private TableColumn<String,String> t13;
+	@FXML
+	private TableColumn<String,String> t14;
+	@FXML
+	private TableColumn<String,String> t15;
+	@FXML
+	private TableColumn<String,String> t16;
+	@FXML
+	private TableColumn<String,String> t17;
+	@FXML
+	private TableColumn<String,String> t18;
+	@FXML
+	private TableColumn<String,String> t19;
+	public void start(String s,String s1,String s2,String s3) {
+		
+	}
+}

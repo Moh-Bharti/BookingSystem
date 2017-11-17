@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StudentController">
+   <children>
+      <Button fx:id="b2" layoutX="94.0" layoutY="67.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" text="View Courses" />
+      <Button fx:id="b1" layoutX="94.0" layoutY="21.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" text="Profile" />
+      <Button fx:id="b8" layoutX="94.0" layoutY="348.0" mnemonicParsing="false" onAction="#SignOut" prefHeight="38.0" prefWidth="158.0" text="Sign Out" />
+      <Button fx:id="b7" layoutX="94.0" layoutY="302.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" text="View Rooms" />
+      <Button fx:id="b6" layoutX="94.0" layoutY="256.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" text="Create Request" />
+      <Button fx:id="b5" layoutX="94.0" layoutY="208.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="168.0" text="Check RoomStatus/Request" />
+      <Button fx:id="b4" layoutX="94.0" layoutY="162.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" text="View Booked Room" />
+      <Button fx:id="b3" layoutX="94.0" layoutY="115.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" text="View TimeTable(Personal)" />
+      <Label fx:id="l1" layoutX="362.0" layoutY="32.0" prefHeight="38.0" prefWidth="150.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

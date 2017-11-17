@@ -1,0 +1,239 @@
+
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.geometry.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.scene.image.*;
+import java.io.*;
+import java.util.*;
+import javafx.fxml.FXMLLoader;;
+
+class Room implements Serializable{
+	String RoomNo;
+	private int Capacity; 
+	boolean booked;
+	
+	
+	
+	Room(String s){
+		RoomNo=s;
+		
+		
+	}
+	void setCapacity(int c){
+		this.Capacity=c;
+	}
+	void bookroom(){
+		booked=true;
+	}
+	
+	
+}
+
+class dayandtime{
+	String day;
+	String start;
+	String end;
+	
+}
+class Course<dayandtime> implements Serializable{
+	 dayandtime timeslot;
+	 String CourseName;
+	 String CourseCode;
+	 
+	 List<String> post;
+	private int studentNum;
+	 String instructor;
+	 ArrayList pre=new ArrayList<Course>();
+	 List<Room> r;
+	Room room;
+	 
+	Course(dayandtime time,String In){
+		this.timeslot=time;
+		this.instructor=In;
+	}
+	
+	
+	
+	
+}
+class Timetable implements Serializable{
+	Course[][] course=new Course[5][18];
+	
+	Timetable(){
+		for(int i=0;i<5;i++){
+			
+		}
+		
+		
+	}
+	
+	void viewTimetable() throws IOException{
+
+		
+	}
+	void add(Course a){
+		courses.add(a);
+		day.add(a.CourseName);
+	}
+	void makeTimetable()throws IOException{
+		String tim="F:\\Semester_03\\Advance Programming\\AP_Project-1_Dataset-Guidelines\\project-1csvfile_14904.csv.csv";
+		BufferedReader ob=null;
+		String er="";
+		String Sp=",,";
+		
+				try{
+					ob=new BufferedReader(new FileReader(tim));
+					while((er=ob.readLine())!=null){
+						String[] we=er.split(",");
+					}
+					while((er=ob.readLine())!=null){
+						String[]ger=er.split(Sp);
+					}
+					
+				}catch(FileNotFoundException e){
+					
+				}catch(IOException f){
+					throw f;
+				}
+		
+		
+		List<Course> r=new ArrayList<Course>();
+		for(Course z:r){
+			
+		}
+	}
+	
+}
+
+
+abstract class User implements Serializable{
+	List<Course> C=new ArrayList<Course>();
+	String login;
+	String password;
+	Timetable schedule;
+	
+	void viewTimetable(){
+		
+	}
+	void SignIn(){
+		
+	}
+	void SignOut(){
+		
+	}
+	
+	
+	
+	
+}
+class Student extends User implements Serializable{
+	
+	
+	
+	void personalTimetable(){
+		
+	}
+	void sendRequest(){
+		
+		
+	}
+	void SearchCourse(Student f,String d)throws IOException,ClassNotFoundException {
+		String cou="C:\\Users\\MOH BHARTI\\Desktop\\Git\\BookingSystem\\RoomBooking\\src\\Courses.csv";
+		Queue<Course> q=new LinkedList<Course>();
+		List<Course> l=new ArrayList<Course>();
+		ObjectInputStream br=null;
+		try{
+			br=new ObjectInputStream(new FileInputStream(cou));
+			Course v=(Course)br.readObject();
+			l.add(v);
+			
+			
+		}catch(FileNotFoundException e){
+			System.out.println("No Such Course");
+		}
+		
+		
+	for(Course g:l){
+			
+			for(String k:g.post){
+			if(k.contains(d)){
+				q.add(g);
+			}
+			
+			}
+		}
+	for(Course w:q){
+		for(Course a:f.schedule.courses){
+			if(w.timeslot.equals(a.timeslot)){
+				q.remove(w);
+			}
+		}
+	}
+	for(Course e:q){
+		System.out.println(e.CourseName);
+	}
+	}
+	
+}
+class Admin extends User implements Serializable{
+	String Request;
+	
+	void AcceptRequest(){
+		
+	}
+	void DenyRequest(){
+		
+	}
+	void ViewRequest(){
+		
+	}
+	void SearchRoom(String S){
+		
+	}
+	
+	
+}
+class Faculty extends User implements Serializable{
+	List<Course> c;
+	void bookroom(){
+		
+	}
+	Room SearchRoom(String room){
+		
+	}
+	
+}
+
+public class BookRoom extends Application implements Serializable {
+
+	public static void main(String[] args)throws Exception {
+		String csv="C:\\Users\\MOH BHARTI\\Desktop\\Git\\BookingSystem\\RoomBooking\\src\\User_id.csv";
+		BufferedReader br=null;
+		try{
+			br=new BufferedReader(new FileReader(csv));
+			
+		}catch(FileNotFoundException e ){
+			
+			
+			
+		}
+		
+		
+		
+		
+		launch(args);
+	}
+	
+	
+	@Override
+	public void start(Stage primaryStage)throws Exception {
+		FXMLLoader fxml=new FXMLLoader(getClass().getResource("Admin.fxml "));
+		
+	}
+}

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.SplitPane?>
@@ -7,14 +11,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StudentController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StudentController">
    <left>
       <BorderPane prefHeight="543.0" prefWidth="159.0" BorderPane.alignment="CENTER">
          <center>
             <SplitPane dividerPositions="0.025806451612903226" prefHeight="502.0" prefWidth="145.0" BorderPane.alignment="CENTER">
                <items>
                   <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
-                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="492.0" prefWidth="148.0">
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="484.0" prefWidth="565.0">
                      <children>
                         <Button fx:id="b2" layoutY="129.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="149.0" text="View Courses" />
                         <Button fx:id="b3" layoutY="172.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="149.0" text="View Timetable(Personal)" />

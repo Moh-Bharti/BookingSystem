@@ -27,3 +27,6 @@ private Label l1;
 @FXML
 private TextField t1;
 }
+public void start(){
+	
+}

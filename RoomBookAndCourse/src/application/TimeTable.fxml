@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<GridPane fx:id="g" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="1919.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TimeTableController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label fx:id="t1" prefHeight="92.0" prefWidth="64.0" text="Timings" textFill="#2aad99">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label fx:id="t2" prefHeight="89.0" prefWidth="64.0" text="Monday" textFill="#d74242" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" prefHeight="91.0" prefWidth="70.0" text="8:30" textFill="#824171" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label prefHeight="95.0" prefWidth="72.0" text="Tuesday" textFill="#243ebf" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label prefHeight="99.0" prefWidth="75.0" text="Wednesday" textFill="#892fd3" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label prefHeight="91.0" prefWidth="86.0" text="Thursday" textFill="#cfab1f" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label prefHeight="91.0" prefWidth="68.0" text="Friday" textFill="#c208cf" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="67.0" text="9:00" textFill="#c3261e" GridPane.columnIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="93.0" prefWidth="68.0" text="9:30" textFill="#c2693a" GridPane.columnIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="96.0" prefWidth="69.0" text="10:00" textFill="#19a6b5" GridPane.columnIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="91.0" prefWidth="70.0" text="10:30" textFill="#89d62b" GridPane.columnIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="104.0" text="11:00" textFill="#ba0da3" GridPane.columnIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="101.0" prefWidth="75.0" text="11:30" textFill="#30a9db" GridPane.columnIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="99.0" prefWidth="74.0" text="12:00" textFill="#c45669" GridPane.columnIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="97.0" prefWidth="77.0" text="12:30" textFill="#c789cd" GridPane.columnIndex="9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="107.0" prefWidth="74.0" text="1:00" textFill="#5b92e3" GridPane.columnIndex="10">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="115.0" prefWidth="73.0" text="1:30" textFill="#116b82" GridPane.columnIndex="11">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="107.0" prefWidth="75.0" text="2:00" textFill="#705d37" GridPane.columnIndex="12">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="88.0" prefWidth="62.0" text="2:30" textFill="#2a8648" GridPane.columnIndex="13">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="95.0" prefWidth="69.0" text="3:00" textFill="#dd0909" GridPane.columnIndex="14">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="100.0" prefWidth="68.0" text="3:30" textFill="#131f8f" GridPane.columnIndex="15">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="93.0" prefWidth="70.0" text="4:00" textFill="#d36d6d" GridPane.columnIndex="16">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="97.0" prefWidth="68.0" text="4:30" textFill="#9ba140" GridPane.columnIndex="17">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="102.0" prefWidth="68.0" text="5:00" textFill="#09d696" GridPane.columnIndex="18">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>

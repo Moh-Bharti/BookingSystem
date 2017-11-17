@@ -1,7 +1,8 @@
 LaunchTargetManager/configs/BookRoom=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Main=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:BookRoom
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:BookRoom,org.eclipse.launchbar.core.descriptorType.default\:Main
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:BookRoom/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:BookRoom/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,309 @@
+
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.geometry.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.scene.image.*;
+import java.io.*;
+import java.util.*;
+import javafx.fxml.FXMLLoader;;
+
+class Room implements Serializable{
+	String RoomNo;
+	private int Capacity; 
+	boolean booked;
+	
+	
+	
+	Room(String s){
+		RoomNo=s;
+		
+		
+	}
+	void setCapacity(int c){
+		this.Capacity=c;
+	}
+	void bookroom(){
+		booked=true;
+	}
+	
+	
+}
+
+class dayandtime{
+	
+	String startToend;
+	
+	
+}
+class Course implements Serializable{
+HashMap< String,dayandtime> timeslot;
+	 String CourseName;
+	 String CourseCode;
+	 String post=new String();
+	 double lecture;
+	private int studentNum;
+	 String instructor;
+	String pre=new String();
+	 Room r;
+	
+	 
+	Course(String Name,String Code,String post,String pre,String in){
+		CourseName=Name;
+		CourseCode=Code;
+		this.post=post;
+		this.pre=pre;
+		instructor=in;
+	}
+	void increasestu(){
+		studentNum++;
+	}
+	
+	
+	
+}
+class Timetable implements Serializable{
+	ArrayList<Course>[][] v;
+	Timetable(){
+		for(int i=0;i<5;i++){
+			for(int j=0;j<18;j++){
+			v[i][j]=new ArrayList<Course>();
+			
+			}
+		}
+		
+		
+	}
+	
+	void viewTimetable() throws IOException{
+
+		
+	}
+	void add(Course a){
+		 
+		HashMap<String,Integer> n=new HashMap<String,Integer>();
+		n.put( "8:30",0);n.put( "9:00",1);n.put( "9:30",2);n.put("10:00",3);
+		n.put("10:30",4);n.put( "11:00",5);n.put( "11:30",6);n.put("12:00",7);
+		n.put( "12:30",8);n.put( "1:00",9);n.put("1:30",10);n.put("2:00",11);
+		n.put("2:30",12);n.put("3:00",13);n.put("3:30",14);n.put("4:00",15);
+		n.put("4:30",16);n.put("5:00",17);
+		
+		
+		if(a.timeslot.containsKey("Monday")){
+					dayandtime s=a.timeslot.get("Monday");
+					String g=s.startToend;
+					int p=n.get(g);
+					double o=a.lecture;
+					int q=(int)o*2;
+					for(int k=p;k<q;k++){
+						v[0][k].add(a);}}
+		else if(a.timeslot.containsKey("Tuesday")){
+					dayandtime s=a.timeslot.get("Tuesday");
+					String g=s.startToend;
+					int p=n.get(g);
+					double o=a.lecture;
+					int q=(int)o*2;
+					for(int k=p;k<q;k++){
+						v[1][k].add(a);
+					}
+				}
+		else if(a.timeslot.containsKey("Wednesday")){
+					dayandtime s=a.timeslot.get("Wednesday");
+					String g=s.startToend;
+					int p=n.get(g);
+					double o=a.lecture;
+					int q=(int)o*2;
+					for(int k=p;k<q;k++){
+						v[2][k].add(a);
+					}			
+				}
+		else if(a.timeslot.containsKey("Thursday")){
+					dayandtime s=a.timeslot.get("Thursday");
+					String g=s.startToend;
+					int p=n.get(g);
+					double o=a.lecture;
+					int q=(int)o*2;
+					for(int k=p;k<q;k++){
+						v[3][k].add(a);
+					}
+			}
+		else{
+					dayandtime s=a.timeslot.get("Friday");
+					String g=s.startToend;
+					int p=n.get(g);
+					double o=a.lecture;
+					int q=(int)o*2;
+					for(int k=p;k<q;k++){
+						v[4][k].add(a);
+					}
+				}
+			}
+		
+	
+	void makeTimetable()throws IOException{
+		String tim="F:\\Semester_03\\Advance Programming\\AP_Project-1_Dataset-Guidelines\\project-1csvfile_14904.csv.csv";
+		BufferedReader ob=null;
+		String er="";
+		String Sp=",,";
+		
+				try{
+					ob=new BufferedReader(new FileReader(tim));
+					while((er=ob.readLine())!=null){
+						String[] we=er.split(",");
+					}
+					while((er=ob.readLine())!=null){
+						String[]ger=er.split(Sp);
+					}
+					
+				}catch(FileNotFoundException e){
+					
+				}catch(IOException f){
+					throw f;
+				}
+		
+		
+		List<Course> r=new ArrayList<Course>();
+		for(Course z:r){
+			
+		}
+	}
+	
+}
+
+
+abstract class User implements Serializable{
+	List<Course> C=new ArrayList<Course>();
+	String login;
+	String password;
+	Timetable schedule;
+	
+	void viewTimetable(){
+		
+	}
+	void SignIn(){
+		
+	}
+	void SignOut(){
+		
+	}
+	void viewProfile(){
+		
+	}
+	void viewCourses(){
+		
+	}
+	
+	
+	
+	
+}
+class Student extends User implements Serializable{
+	
+	
+	
+	void personalTimetable(){
+		
+	}
+	void sendRequest(){
+		
+		
+	}
+	void SearchCourse(Student f,String d)throws IOException,ClassNotFoundException {
+		String cou="C:\\Users\\MOH BHARTI\\Desktop\\Git\\BookingSystem\\RoomBooking\\src\\Courses.csv";
+		Queue<Course> q=new LinkedList<Course>();
+		List<Course> l=new ArrayList<Course>();
+		ObjectInputStream br=null;
+		try{
+			br=new ObjectInputStream(new FileInputStream(cou));
+			Course v=(Course)br.readObject();
+			l.add(v);
+			
+			
+		}catch(FileNotFoundException e){
+			System.out.println("No Such Course");
+		}
+		
+		
+	for(Course g:l){
+			
+			for(String k:g.post){
+			if(k.contains(d)){
+				q.add(g);
+			}
+			
+			}
+		}
+	for(Course w:q){
+		for(Course a:f.schedule.courses){
+			if(w.timeslot.equals(a.timeslot)){
+				q.remove(w);
+			}
+		}
+	}
+	for(Course e:q){
+		System.out.println(e.CourseName);
+	}
+	}
+	
+}
+class Admin extends User implements Serializable{
+	String Request;
+	
+	void AcceptRequest(){
+		
+	}
+	void DenyRequest(){
+		
+	}
+	void ViewRequest(){
+		
+	}
+	void SearchRoom(String S){
+		
+	}
+	
+	
+}
+class Faculty extends User implements Serializable{
+	List<Course> c;
+	void bookroom(){
+		
+	}
+	Room SearchRoom(String room){
+		
+	}
+	
+}
+
+public class BookRoom extends Application implements Serializable {
+
+	public static void main(String[] args)throws Exception {
+		String csv="C:\\Users\\MOH BHARTI\\Desktop\\Git\\BookingSystem\\RoomBooking\\src\\User_id.csv";
+		BufferedReader br=null;
+		try{
+			br=new BufferedReader(new FileReader(csv));
+			
+		}catch(FileNotFoundException e ){
+			
+			
+			
+		}
+		
+		
+		
+		
+		launch(args);
+	}
+	
+	
+	@Override
+	public void start(Stage primaryStage)throws Exception {
+		FXMLLoader fxml=new FXMLLoader(getClass().getResource("Admin.fxml "));
+		
+	}
+}

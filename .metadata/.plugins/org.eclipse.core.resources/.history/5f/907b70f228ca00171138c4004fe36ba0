@@ -1,0 +1,51 @@
+package application;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import java.util.*;
+class schedule{
+	String start;
+	String end;
+	String Room;
+	String name;
+	schedule(String start,String end,String Room,String name){
+		this.start=start;
+		this.end=end;
+		this.Room=Room;
+		this.name=name;
+	}
+	
+}
+class show{
+	List<schedule> q=new ArrayList<schedule>();
+	
+}
+public class TimeTableController {
+	@FXML
+	private Label l1;
+	@FXML
+	private Label l2;
+	@FXML
+	private Label l3;
+	@FXML
+	private Label l4;
+	@FXML
+	private Label l5;
+	@FXML
+	private Label l6;
+	@FXML
+	private Label l7;
+	@FXML
+	private Label l8;
+	@FXML
+	private Label l9;
+	@FXML
+	private Label l10;
+	public void start(String s,String s1,String s2,String s3) {
+		schedule w=new schedule(s,s1,s2,s3);
+		
+	}
+}
